@@ -97,12 +97,12 @@
   <div class="card cta">
     <h2>Make sure every job hits this rate</h2>
     <ul>
-      <li><a href="https://payhip.com/b/Qq3Hu" target="_blank" rel="noopener">Tradie Job Costing &amp; Profit Tracker</a>: compares what you quoted with what each job actually cost, so you can see the profit and margin on every job.</li>
-      <li><a href="https://payhip.com/b/0qZGi" target="_blank" rel="noopener">Quote Follow-up &amp; Payment Chaser</a>: lists the quotes to follow up and the invoices to chase, with ready-made reminder messages.</li>
-      <li><a href="https://payhip.com/b/vKryc" target="_blank" rel="noopener">Tradie Business Tools Bundle</a>: Job Costing, Payment Chaser and Tool Register together.</li>
-      <li>Also: <a href="https://payhip.com/b/d1oD4" target="_blank" rel="noopener">Subbie Register + TPAR Tracker</a>, <a href="https://payhip.com/b/f9l3N" target="_blank" rel="noopener">Site Diary + EOT Log</a>, <a href="https://payhip.com/b/6vdsp" target="_blank" rel="noopener">Tool Register + Test &amp; Tag</a>.</li>
+      <li><a href="https://payhip.com/b/Qq3Hu" data-payhip="b/Qq3Hu" target="_blank" rel="noopener">Tradie Job Costing &amp; Profit Tracker</a>: compares what you quoted with what each job actually cost, so you can see the profit and margin on every job.</li>
+      <li><a href="https://payhip.com/b/0qZGi" data-payhip="b/0qZGi" target="_blank" rel="noopener">Quote Follow-up &amp; Payment Chaser</a>: lists the quotes to follow up and the invoices to chase, with ready-made reminder messages.</li>
+      <li><a href="https://payhip.com/b/vKryc" data-payhip="b/vKryc" target="_blank" rel="noopener">Tradie Business Tools Bundle</a>: Job Costing, Payment Chaser and Tool Register together.</li>
+      <li>Also: <a href="https://payhip.com/b/d1oD4" data-payhip="b/d1oD4" target="_blank" rel="noopener">Subbie Register + TPAR Tracker</a>, <a href="https://payhip.com/b/f9l3N" data-payhip="b/f9l3N" target="_blank" rel="noopener">Site Diary + EOT Log</a>, <a href="https://payhip.com/b/6vdsp" data-payhip="b/6vdsp" target="_blank" rel="noopener">Tool Register + Test &amp; Tag</a>.</li>
     </ul>
-    <p class="small">Excel &amp; Google Sheets, no macros, one-off purchase. All tools: <a href="https://payhip.com/Andwatco" target="_blank" rel="noopener">payhip.com/Andwatco</a></p>
+    <p class="small">Excel &amp; Google Sheets, no macros, one-off purchase. All tools: <a href="https://payhip.com/Andwatco" data-payhip="Andwatco" target="_blank" rel="noopener" data-storetext="1">payhip.com/Andwatco</a></p>
   </div>
 </section>
 </div>
@@ -211,6 +211,18 @@ if (typeof module !== "undefined") module.exports = { calc: calc, parseNum: pars
 
 </script>
 <script>
+/* ===== LINK SETTINGS: change these if the guides site or the store moves. All links below are built from them. ===== */
+var GUIDES_BASE="https://bishoppjay-del.github.io/andwat-media/";
+var PAYHIP_BASE="https://payhip.com/";
+var PAYHIP_STORE=PAYHIP_BASE+"Andwatco";
+var PAYHIP_STORE_TEXT=PAYHIP_STORE.replace(/^https?:\/\//,"");
+function applyLinks(){
+  [].forEach.call(document.querySelectorAll("a[data-payhip]"),function(a){a.href=PAYHIP_BASE+a.getAttribute("data-payhip")});
+  [].forEach.call(document.querySelectorAll("a[data-guide]"),function(a){a.href=GUIDES_BASE+a.getAttribute("data-guide")});
+  [].forEach.call(document.querySelectorAll("[data-storetext]"),function(a){a.textContent=PAYHIP_STORE_TEXT});
+}
+applyLinks();
+/* ===== end of link settings ===== */
 (function(){
 var KEY="andwat-chargeout-v1";
 var DEFAULTS={wage:"85000",superPct:"12",hoursWorked:"45",billableHours:"30",leaveWeeks:"4",phDays:"10",sickDays:"10",daysPerWeek:"5",marginPct:"15",dayHours:"8",currentRate:"",gstRegistered:false,
@@ -271,7 +283,7 @@ function update(){
    +rows.map(function(x){return'<tr><td>'+esc(x[0])+'</td><td class="r">'+x[1]+'</td></tr>'}).join("")
    +'<tr><td>Billable hours per week / per year</td><td class="r">'+esc(s.billableHours)+' / '+numFmt(r.billableYr,0)+'</td></tr></tbody></table><h3>Overheads</h3><table><thead><tr><th>Cost</th><th class="r">Per year</th></tr></thead><tbody>'
    +r.overheadLines.map(function(o){return'<tr><td>'+esc(o.name)+'</td><td class="r">'+money(o.annual,0)+'</td></tr>'}).join("")
-   +'</tbody></table><p class="small">A planning estimate from your own figures. It isn\'t financial or tax advice. payhip.com/Andwatco</p>';
+   +'</tbody></table><p class="small">A planning estimate from your own figures. It isn\'t financial or tax advice. '+esc(PAYHIP_STORE_TEXT)+'</p>';
 }
 var saved=null;try{saved=JSON.parse(localStorage.getItem(KEY)||"null")}catch(e){}
 load(saved&&saved.overheads?saved:DEFAULTS);
