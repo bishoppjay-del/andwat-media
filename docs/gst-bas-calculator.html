@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en-AU"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Free GST &amp; BAS Calculator (AU): add or remove GST, Simpler BAS G1/1A/1B, $75k check</title><meta name="description" content="Free calculator for Australian sole traders and tradies: add 10% GST or take it out of a price, estimate G1, 1A and 1B for a Simpler BAS, and check whether you&#x27;ve hit the $75,000 GST registration threshold. Runs in your browser."><link rel="canonical" href="https://bishoppjay-del.github.io/andwat-media/gst-bas-calculator.html">
+<meta property="og:title" content="Free GST &amp; BAS Calculator (AU): add or remove GST, Simpler BAS G1/1A/1B, $75k check"><meta property="og:description" content="Free calculator for Australian sole traders and tradies: add 10% GST or take it out of a price, estimate G1, 1A and 1B for a Simpler BAS, and check whether you&#x27;ve hit the $75,000 GST registration threshold. Runs in your browser."><meta property="og:type" content="article"><meta property="og:url" content="https://bishoppjay-del.github.io/andwat-media/gst-bas-calculator.html">
+<meta name="robots" content="index,follow"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; form-action 'none'; base-uri 'none'"><link rel="stylesheet" href="style.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "GST & BAS Quick Calculator (AU)", "url": "https://bishoppjay-del.github.io/andwat-media/gst-bas-calculator.html", "description": "Free calculator for Australian sole traders and tradies: add 10% GST or take it out of a price, estimate G1, 1A and 1B for a Simpler BAS, and check whether you've hit the $75,000 GST registration threshold. Runs in your browser.", "applicationCategory": "BusinessApplication", "operatingSystem": "Any (runs in a web browser)", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "AUD"}, "author": {"@type": "Organization", "name": "Andwat Co"}, "inLanguage": "en-AU", "dateModified": "2026-10-25"}</script></head>
+<body><header><div class="w"><a href="index.html">Andwat Trade Guides</a><nav><a href="index.html">All guides</a><a href="https://payhip.com/b/jAiHR" rel="noopener">Sole Trader GST, BAS &amp; Expense Tracker (A$19)</a></nav></div></header>
+<main class="w"><h1>GST &amp; BAS quick calculator</h1><p class="meta">Last reviewed 25 October 2026 · Free · No sign-up · Runs in your browser</p><p class="lead">Free calculator for Australian sole traders and tradies: add 10% GST or take it out of a price, estimate G1, 1A and 1B for a Simpler BAS, and check whether you&#x27;ve hit the $75,000 GST registration threshold. Runs in your browser.</p>
+<h2>The two GST sums everyone needs</h2>
+<ul><li><strong>Adding GST to an ex-GST price:</strong> multiply by 1.1. $1,000 + 10% = $1,100, and the GST is $100.</li>
+<li><strong>Taking GST out of an inc-GST price:</strong> the GST is <strong>1/11</strong> of the total, not 10% of it. In $550, the GST is $50 and the ex-GST price is $500. Taking 10% off $550 gives $55, which is wrong.</li></ul>
+<h2>What the BAS tab works out</h2>
+<p>On a Simpler BAS you report three GST figures (see our <a href="simpler-bas-g1-1a-1b-explained.html">Simpler BAS guide</a>):</p>
+<ul><li><strong>G1 Total sales:</strong> all your sales, taxable and GST-free, either including or excluding GST. You tick which one you used.</li>
+<li><strong>1A GST on sales:</strong> the GST in your taxable sales.</li>
+<li><strong>1B GST on purchases:</strong> the GST credits on business purchases, counting only the business share of anything you also use privately. You need a tax invoice for purchases over $82.50 including GST.</li></ul>
+<p>The ATO asks for whole dollars, rounded down, so the calculator drops the cents. It's an estimate for one period. It doesn't handle instalments, adjustments, PAYG, fuel tax credits, input-taxed sales or mixed-supply bills.</p>
+<h2>Not registered for GST?</h2>
+<p>The box starts unticked. If you're not registered, don't add GST to your prices or show it on invoices, and you don't lodge 1A or 1B. You can still use the first tab to see how much GST is inside a bill you've paid, and the third tab to check each month whether you're close to $75,000. You reach the threshold if either your last 12 months (this month plus the previous 11) or your next 12 months (this month plus the next 11) comes to $75,000 or more. Then you have 21 days to register. See <a href="do-i-need-to-register-for-gst.html">Do I need to register for GST?</a></p>
+<p class="example"><strong>Privacy:</strong> the calculator runs entirely in your browser. Nothing you type is sent to us or anyone else, and the page loads no trackers, analytics or third-party scripts. So your figures are still there next time, they're saved in this browser's local storage on your device only. To remove them, clear this site's data in your browser settings.</p>
+<h2>The calculator</h2>
+<p>Pick a tab and change the yellow boxes. The example figures are made up, so replace them with your own.</p>
+<style>#gst{--navy:#1F3A5F;--orange:#E8792B;--bg:#F4F6F9;--ink:#1F2937;--grey:#5A6473;--line:#D5DAE1;--yellow:#FFF7D6;--red:#B42318;--redbg:#FDECEC;--green:#E7F5EC}#gst,#gst *{box-sizing:border-box}#gst{margin:0;color:var(--ink);background:var(--bg);font-size:16px;line-height:1.45}#gst .wrap{max-width:1180px;margin:0 auto;padding:16px}#gst .bar{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin-bottom:14px}#gst .tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}#gst .tab{background:#fff;color:var(--navy);border:1px solid var(--navy);border-radius:8px;padding:10px 14px;font-size:1rem;font-family:inherit;cursor:pointer;font-weight:700}#gst .tab[aria-selected=true]{background:var(--navy);color:#fff}#gst .panel{display:none}#gst .panel.on{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:18px;align-items:start}#gst .card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin-bottom:18px}#gst h2{color:var(--navy);font-size:1.2rem;margin:0 0 10px}#gst h3{color:var(--navy);font-size:1.05rem;margin:14px 0 6px}#gst label{font-weight:600}#gst .hint,#gst .small{color:var(--grey);font-size:.88rem;font-weight:400}#gst input[type=text],#gst select{width:100%;padding:8px 9px;font-size:1rem;border:1px solid #C9B76A;border-radius:6px;background:var(--yellow);font-family:inherit;color:var(--ink)}#gst input.bad{border:2px solid var(--red);background:var(--redbg)}#gst .line{display:grid;gap:6px;margin-bottom:6px;align-items:center}#gst .line.q{grid-template-columns:minmax(0,1.4fr) minmax(0,1fr) minmax(0,1.1fr) 30px}#gst .line.s{grid-template-columns:minmax(0,1.3fr) minmax(0,.9fr) minmax(0,1fr) minmax(0,1fr) 30px}#gst .line.p{grid-template-columns:minmax(0,1.1fr) minmax(0,.8fr) minmax(0,.8fr) minmax(0,1.05fr) 62px 30px}#gst .line.hdr{font-size:.82rem;color:var(--grey);font-weight:600;margin-bottom:2px}#gst .x{border:none;background:none;color:var(--grey);font-size:1.3rem;cursor:pointer}#gst .btn{background:var(--navy);color:#fff;border:none;border-radius:6px;padding:9px 14px;font-size:1rem;cursor:pointer;font-family:inherit}#gst .btn.alt{background:#fff;color:var(--navy);border:1px solid var(--navy)}#gst .btns{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}#gst .check{display:flex;gap:8px;align-items:center;font-weight:600}#gst .check input{width:20px;height:20px}#gst .big{background:var(--navy);color:#fff;border-radius:10px;padding:16px 18px;margin-bottom:12px}#gst .big .lbl{color:#DCE4F0;font-size:.95rem}#gst .big .val{font-size:2.3rem;font-weight:700;line-height:1.15}#gst .big .sub{color:#DCE4F0;margin-top:4px}#gst .tiles{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:12px}#gst .tile{background:#fff;border:1px solid var(--line);border-radius:8px;padding:10px 12px}#gst .tile .lbl{color:var(--grey);font-size:.85rem}#gst .tile .val{font-size:1.35rem;font-weight:700;color:var(--navy)}#gst table{width:100%;border-collapse:collapse;font-size:.95rem}#gst td,#gst th{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}#gst td.r,#gst th.r{text-align:right;white-space:nowrap}#gst th{background:var(--navy);color:#fff;font-weight:600}#gst tr.tot td{font-weight:700;border-top:2px solid var(--navy)}#gst .msg{border-radius:8px;padding:10px 12px;margin-bottom:10px;font-size:.95rem}#gst .msg.err{background:var(--redbg);color:var(--red);border:1px solid #F3B8B3}#gst .msg.warn{background:#FFF4E5;border:1px solid #F6CF9C}#gst .msg.good{background:var(--green);border:1px solid #A9D8B8}#gst .msg ul{margin:4px 0 0;padding-left:18px}#gst .months{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px 10px}#gst .months label{font-size:.85rem;font-weight:600;color:var(--grey)}#gst .meter{height:14px;background:#E6E9EE;border-radius:7px;overflow:hidden;margin:4px 0 10px}#gst .meter span{display:block;height:100%;background:var(--navy)}#gst .meter span.over{background:var(--red)}#gst .cta{border-left:6px solid var(--orange)}#gst .cta a{color:var(--navy);font-weight:700}#gst .cta li{margin-bottom:8px}#gst #printCard{display:none}#gst #mbar{display:none}#gst .mlbl{display:none}#gst .pctwrap{display:block}@media (max-width:860px){#gst .panel.on{grid-template-columns:1fr}#gst #mbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:5;background:var(--navy);color:#fff;padding:10px 16px;justify-content:space-between;align-items:center;border-top:4px solid var(--orange);font-size:1.02rem}#gst #mbar a{color:#fff;font-weight:700;white-space:nowrap;margin-left:10px}#gst{padding-bottom:58px}}@media (max-width:560px){#gst .line.q,#gst .line.s,#gst .line.p{grid-template-columns:1fr 1fr;padding:8px;border:1px solid var(--line);border-radius:8px}#gst .mlbl{display:block;font-size:.8rem;color:var(--grey);font-weight:600}#gst .line.p .type{align-self:end}#gst .line{position:relative}#gst .line .desc{grid-column:1/3;width:calc(100% - 34px)}#gst .line.hdr{display:none}#gst .line .x{position:absolute;top:10px;right:6px}#gst .tiles{grid-template-columns:1fr}#gst .months{grid-template-columns:repeat(2,minmax(0,1fr))}#gst .tab{flex:1 1 100%}}#gst{width:min(1180px,calc(100vw - 40px));margin-left:calc(50% - min(590px,50vw - 20px));border-radius:10px;padding:2px 0;margin-top:18px}#gst .cmain,#gst .wrap{padding:16px}#gst .btn{display:inline-block;margin-top:0;font-weight:400}#gst th{border:none}#gst td{border-left:none;border-right:none;border-top:none}#gst .card h2,#gst .big{margin-top:0}@media (max-width:860px){body{padding-bottom:58px}}@media print{body>header,body>footer{display:none!important}main.w>*:not(#gst){display:none!important}#gst>*:not(#printCard){display:none!important}#gst{width:auto;margin:0;background:#fff}#gst #printCard{display:block;padding:0 6mm}#gst #printCard td,#gst #printCard th{padding:3px 6px;font-size:10.5pt}#gst #printCard h3{margin:10px 0 4px}#gst #printCard h1{color:#1F3A5F;margin:0 0 2px;font-size:20pt}#gst #printCard .rule{height:4px;background:#E8792B;margin:6px 0 12px;-webkit-print-color-adjust:exact;print-color-adjust:exact}#gst #printCard th{background:#1F3A5F!important;color:#fff!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}#gst #printCard .hl td{background:#FDEBDD!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}@page{size:A4;margin:14mm}}</style>
+<div id="gst">
+<div class="wrap">
+  <div class="bar">
+    <label class="check"><input type="checkbox" id="registered"> I'm registered for GST</label>
+    <span class="small">Not tax advice. It uses the 10% GST rate and the rules on ato.gov.au (sources at the bottom).</span>
+  </div>
+  <div class="tabs noprint" role="tablist">
+    <button class="tab" role="tab" id="tab-quick" aria-selected="true" data-p="quick">1. Add / remove GST</button>
+    <button class="tab" role="tab" id="tab-bas" aria-selected="false" data-p="bas">2. BAS estimate (G1, 1A, 1B)</button>
+    <button class="tab" role="tab" id="tab-thr" aria-selected="false" data-p="thr">3. Do I need to register? ($75k)</button>
+  </div>
+
+  <section class="panel on" id="p-quick">
+    <div>
+      <div class="card">
+        <h2>Add or remove GST</h2>
+        <p class="small" style="margin-top:0">Type an amount and choose whether it is <b>inc GST</b> (already includes GST, so the GST is 1/11 of it) or <b>ex GST</b> (excludes GST, so 10% is added on top). Add more lines to total a quote or a bill.</p>
+        <div class="line q hdr"><span>What it is</span><span>Amount ($)</span><span>Amount is</span><span></span></div>
+        <div id="qList"></div>
+        <div class="btns noprint"><button class="btn alt" type="button" id="qAdd">+ Add a line</button><button class="btn alt" type="button" id="qClear">Clear</button></div>
+      </div>
+    </div>
+    <div>
+      <div id="qMsg"></div>
+      <div id="qOut">
+        <div class="big"><div class="lbl">Total including GST</div><div class="val" id="qInc">-</div><div class="sub" id="qSub"></div></div>
+        <div class="tiles"><div class="tile"><div class="lbl">Excluding GST</div><div class="val" id="qEx">-</div></div><div class="tile"><div class="lbl">GST (10%)</div><div class="val" id="qGst">-</div></div><div class="tile"><div class="lbl">Lines</div><div class="val" id="qN">-</div></div></div>
+        <div class="card"><h2>Line by line</h2><table><thead><tr><th>Line</th><th class="r">Ex GST</th><th class="r">GST</th><th class="r">Inc GST</th></tr></thead><tbody id="qTable"></tbody></table>
+        <p class="small">GST is rounded to the nearest cent, with half a cent rounding up (ATO rounding rule). Totals add up the rounded lines.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel" id="p-bas">
+    <div>
+      <div class="card">
+        <h2>BAS period</h2>
+        <div class="line" style="grid-template-columns:1fr 1fr"><div><label for="period">Period (for your print-out)</label><input type="text" id="period" placeholder="e.g. Jul-Sep 2026"></div>
+        <div><label for="g1Basis">Report G1</label><select id="g1Basis"><option value="inc">Including GST</option><option value="ex">Excluding GST</option></select></div></div>
+        <p class="small">On a Simpler BAS you report G1 either including or excluding GST and tick which one you used (ATO).</p>
+      </div>
+      <div class="card">
+        <h2>Sales this period</h2>
+        <div class="line s hdr"><span>What it is</span><span>Amount ($)</span><span>Amount is</span><span>Type</span><span></span></div>
+        <div id="sList"></div>
+        <div class="btns noprint"><button class="btn alt" type="button" id="sAdd">+ Add a sale</button></div>
+      </div>
+      <div class="card">
+        <h2>Business purchases this period</h2>
+        <div class="line p hdr"><span>What it is</span><span>Amount ($)</span><span>Amount is</span><span>GST in price?</span><span>Business %</span><span></span></div>
+        <div id="pList"></div>
+        <div class="btns noprint"><button class="btn alt" type="button" id="pAdd">+ Add a purchase</button><button class="btn alt" type="button" id="basClear">Clear BAS lines</button></div>
+        <p class="small">Choose "No GST" for bank fees, wages, super, stamp duty, GST-free items and suppliers who aren't registered for GST. For things you also use privately, only claim the business share (ATO).</p>
+      </div>
+    </div>
+    <div>
+      <div id="bMsg"></div>
+      <div id="bOut">
+        <div class="big"><div class="lbl" id="bNetLbl">Net GST</div><div class="val" id="bNet">-</div><div class="sub" id="bNetSub"></div></div>
+        <div class="tiles"><div class="tile"><div class="lbl" id="bG1Lbl">G1 Total sales</div><div class="val" id="bG1">-</div></div><div class="tile"><div class="lbl">1A GST on sales</div><div class="val" id="b1A">-</div></div><div class="tile"><div class="lbl">1B GST on purchases</div><div class="val" id="b1B">-</div></div></div>
+        <div class="card"><h2>How it adds up</h2><table><tbody id="bTable"></tbody></table>
+        <p class="small">The BAS figures are in whole dollars with the cents dropped, as the ATO asks. This is an estimate only. Your BAS uses your actual records and your accounting basis (cash or non-cash).</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel" id="p-thr">
+    <div>
+      <div class="card">
+        <h2>Your GST turnover, month by month</h2>
+        <p class="small" style="margin-top:0">GST turnover is your total business income (not profit), less any GST included in it and some other sales. If you're not sure what counts, check the ATO page linked below. Leave out the sale of business assets from your projection.</p>
+        <div class="line" style="grid-template-columns:1fr 1fr"><div><label for="thisMonth">This month</label><select id="thisMonth"></select></div><div><label for="thisYear">Year</label><select id="thisYear"></select></div></div>
+        <h3>This month and the previous 11 months (actual)</h3><div class="months" id="curGrid"></div>
+        <h3>This month and the next 11 months (expected)</h3>
+        <div class="btns noprint" style="margin-top:0;margin-bottom:8px"><button class="btn alt" type="button" id="copyCur">Copy the actual figures as my estimate</button></div>
+        <div class="months" id="projGrid"></div>
+        <label class="check" style="margin-top:12px"><input type="checkbox" id="nonProfit"> Non-profit organisation ($150,000 threshold)</label>
+        <label class="check" style="margin-top:8px"><input type="checkbox" id="taxi"> I provide taxi or ride-sourcing travel</label>
+      </div>
+    </div>
+    <div>
+      <div id="tMsg"></div>
+      <div id="tOut">
+        <div class="big"><div class="lbl">Result</div><div class="val" id="tHead" style="font-size:1.7rem">-</div><div class="sub" id="tSub"></div></div>
+        <div class="card"><h2>Against the threshold</h2>
+          <div><b>Past 12 months:</b> <span id="tCur"></span></div><div class="meter"><span id="tCurBar"></span></div>
+          <div><b>Next 12 months:</b> <span id="tProj"></span></div><div class="meter"><span id="tProjBar"></span></div>
+          <p class="small">The ATO says you must register within 21 days of reaching the threshold. You reach it if either your current GST turnover (this month plus the previous 11) or your projected GST turnover (this month plus the next 11) is $75,000 or more ($150,000 for non-profits).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="btns noprint" style="margin:0 0 18px"><button class="btn" id="printBtn" type="button">Print / save this tab as PDF</button><button class="btn alt" id="resetBtn" type="button">Reset everything to the examples</button><span class="small" style="align-self:center">Your figures are saved in this browser only, on this device.</span></div>
+
+  <div class="card cta">
+    <h2>Keep your GST records sorted all year</h2>
+    <ul>
+      <li><a href="https://payhip.com/b/jAiHR" target="_blank" rel="noopener">Sole Trader GST, BAS &amp; Expense Tracker (AU)</a>: log income and expenses as you go and get each quarter's G1, 1A and 1B, net GST and a tax set-aside. It also flags purchases over $82.50 that need a tax invoice.</li>
+      <li><a href="https://payhip.com/b/d1oD4" target="_blank" rel="noopener">Tradie Subbie Register + Payments &amp; TPAR Tracker</a>: subbie ABNs, payments with GST, and a whole-dollar TPAR summary.</li>
+      <li><a href="https://payhip.com/b/0qZGi" target="_blank" rel="noopener">Quote Follow-up &amp; Payment Chaser</a>: get paid so the GST is in the bank before your BAS is due.</li>
+      <li>Also: <a href="https://payhip.com/b/Qq3Hu" target="_blank" rel="noopener">Job Costing &amp; Profit Tracker</a>, <a href="https://payhip.com/b/vKryc" target="_blank" rel="noopener">Tradie Business Tools Bundle</a>, <a href="https://payhip.com/b/f9l3N" target="_blank" rel="noopener">Site Diary + EOT Log</a>, <a href="https://payhip.com/b/6vdsp" target="_blank" rel="noopener">Tool Register + Test &amp; Tag</a><span id="coLink"></span>.</li>
+    </ul>
+    <p class="small">Excel &amp; Google Sheets, no macros, one-off purchase. All tools: <a href="https://payhip.com/Andwatco" target="_blank" rel="noopener">payhip.com/Andwatco</a>. Free guides: <a href="https://bishoppjay-del.github.io/andwat-media/do-i-need-to-register-for-gst.html" target="_blank" rel="noopener">Do I need to register for GST?</a> · <a href="https://bishoppjay-del.github.io/andwat-media/simpler-bas-g1-1a-1b-explained.html" target="_blank" rel="noopener">Simpler BAS: G1, 1A and 1B</a> · <a href="https://bishoppjay-del.github.io/andwat-media/how-to-quote-a-job-with-gst.html" target="_blank" rel="noopener">How to quote a job with GST</a> · <a href="https://bishoppjay-del.github.io/andwat-media/tax-invoice-requirements-australia.html" target="_blank" rel="noopener">What a tax invoice must show</a></p>
+  </div>
+</div>
+<div id="printCard"></div><div id="mbar" class="noprint"><span id="mbarTxt"></span><a href="#" id="mbarLink">See result ↓</a></div></div>
+<script id="core">
+/* Andwat Co GST & BAS maths. Pure functions, no DOM, no network. GST rate 10% (ATO). */
+var GST_RATE = 0.1, THRESHOLD = 75000, THRESHOLD_NFP = 150000, TAX_INVOICE_OVER = 82.5;
+function parseNum(v) {
+  if (v === null || v === undefined) return { value: 0, empty: true, bad: false };
+  var s = String(v).replace(/[$,\s]/g, "").replace(/%$/, "");
+  if (s === "") return { value: 0, empty: true, bad: false };
+  if (!/^-?(\d+\.?\d*|\.\d+)(e[+-]?\d+)?$/i.test(s)) return { value: NaN, empty: false, bad: true };
+  var n = Number(s);
+  return { value: n, empty: false, bad: !isFinite(n) };
+}
+/* Round to cents, 0.5 cent rounds up (away from zero), as the ATO describes for GST. */
+function round2(x) {
+  if (!isFinite(x)) return x;
+  var s = x < 0 ? -1 : 1, a = Math.abs(x);
+  return s * Number(Math.round(Number(a + "e2")) + "e-2");
+}
+/* One amount: includesGst true -> GST is 1/11 of it; false -> GST is 10% on top. */
+function gstLine(amount, includesGst) {
+  if (includesGst) { var inc = round2(amount), g = round2(inc / 11); return { ex: round2(inc - g), gst: g, inc: inc }; }
+  var ex = round2(amount), g2 = round2(ex * GST_RATE); return { ex: ex, gst: g2, inc: round2(ex + g2) };
+}
+function readAmount(raw, label, errors, key, fieldErrors) {
+  var p = parseNum(raw);
+  if (p.bad || p.value > 1e12) { errors.push(label + ": enter a number" + (p.value > 1e12 ? " under $1 trillion." : ".")); fieldErrors[key] = 1; return null; }
+  if (p.value < 0) { errors.push(label + " can't be negative. For a refund or credit note, enter it as a separate adjustment with your agent."); fieldErrors[key] = 1; return null; }
+  return p.value;
+}
+/* Tab 1: list of amounts to add/remove GST */
+function calcQuick(inp) {
+  var errors = [], warnings = [], fieldErrors = {}, lines = [], tot = { ex: 0, gst: 0, inc: 0 };
+  (inp.lines || []).forEach(function (l, i) {
+    var label = (l.desc && String(l.desc).trim()) || ("Line " + (i + 1));
+    var a = readAmount(l.amount, label, errors, "q" + i, fieldErrors);
+    if (a === null) return;
+    if (parseNum(l.amount).empty) return;
+    var r = gstLine(a, l.mode === "inc"); r.desc = label; r.mode = l.mode === "inc" ? "inc" : "ex"; lines.push(r);
+    tot.ex += r.ex; tot.gst += r.gst; tot.inc += r.inc;
+  });
+  tot.ex = round2(tot.ex); tot.gst = round2(tot.gst); tot.inc = round2(tot.inc);
+  if (!inp.registered) warnings.push("You're not registered for GST, so don't add GST to your prices or show it on invoices. You can still use this to see the GST inside a bill you've been charged.");
+  return { ok: errors.length === 0, errors: errors, warnings: warnings, fieldErrors: fieldErrors, lines: lines, total: tot, registered: !!inp.registered };
+}
+/* Tab 2: Simpler BAS estimate for one period */
+function calcBas(inp) {
+  var errors = [], warnings = [], fieldErrors = {};
+  var g1 = 0, a1 = 0, b1 = 0, taxableSalesInc = 0, gstFreeSales = 0, needInvoice = [], sales = [], purchases = [];
+  var g1Inc = inp.g1Basis !== "ex";
+  (inp.sales || []).forEach(function (l, i) {
+    var label = (l.desc && String(l.desc).trim()) || ("Sale " + (i + 1));
+    var a = readAmount(l.amount, label, errors, "s" + i, fieldErrors);
+    if (a === null || parseNum(l.amount).empty) return;
+    if (l.type === "gstfree") { g1 += a; gstFreeSales += a; sales.push({ desc: label, type: "gstfree", g1: a, gst: 0 }); return; }
+    var r = gstLine(a, l.mode !== "ex");
+    g1 += g1Inc ? r.inc : r.ex; a1 += r.gst; taxableSalesInc += r.inc;
+    sales.push({ desc: label, type: "taxable", g1: g1Inc ? r.inc : r.ex, gst: r.gst });
+  });
+  (inp.purchases || []).forEach(function (l, i) {
+    var label = (l.desc && String(l.desc).trim()) || ("Purchase " + (i + 1));
+    var a = readAmount(l.amount, label, errors, "p" + i, fieldErrors);
+    var pctRaw = parseNum(l.businessPct === undefined ? "100" : l.businessPct);
+    var pct = pctRaw.empty ? 100 : pctRaw.value;
+    if (pctRaw.bad || pct < 0 || pct > 100) { errors.push(label + ": business use must be 0 to 100%."); fieldErrors["pp" + i] = 1; return; }
+    if (a === null || parseNum(l.amount).empty) return;
+    if (l.type === "nogst") { purchases.push({ desc: label, type: "nogst", gst: 0, credit: 0, pct: pct }); return; }
+    var r = gstLine(a, l.mode !== "ex"), credit = round2(r.gst * pct / 100);
+    b1 += credit;
+    purchases.push({ desc: label, type: "taxable", gst: r.gst, credit: credit, pct: pct, inc: r.inc });
+    if (r.inc > TAX_INVOICE_OVER && credit > 0) needInvoice.push({ desc: label, inc: r.inc });
+  });
+  g1 = round2(g1); a1 = round2(a1); b1 = round2(b1);
+  var res = { ok: errors.length === 0, errors: errors, warnings: warnings, fieldErrors: fieldErrors, registered: !!inp.registered,
+    exact: { g1: g1, a1: a1, b1: b1, net: round2(a1 - b1) }, g1Basis: g1Inc ? "inc" : "ex", sales: sales, purchases: purchases, needInvoice: needInvoice,
+    gstFreeSales: round2(gstFreeSales), period: inp.period || "" };
+  /* ATO: report whole dollars, round down, no cents */
+  res.bas = { G1: Math.floor(g1 + 1e-9), "1A": Math.floor(a1 + 1e-9), "1B": Math.floor(b1 + 1e-9) };
+  res.bas.net = res.bas["1A"] - res.bas["1B"];
+  res.result = res.bas.net > 0 ? "pay" : (res.bas.net < 0 ? "refund" : "nil");
+  if (!inp.registered) warnings.unshift("You're not registered for GST, so you don't report 1A or 1B and can't claim GST credits. The figures below show what they would be if you were registered.");
+  if (needInvoice.length) warnings.push(needInvoice.length + " purchase" + (needInvoice.length > 1 ? "s are" : " is") + " over $82.50 including GST. You need a tax invoice before you can claim the GST credit.");
+  return res;
+}
+/* Tab 3: GST registration threshold check */
+function calcThreshold(inp) {
+  var errors = [], warnings = [], fieldErrors = {};
+  function sum(arr, prefix, name) {
+    var t = 0;
+    (arr || []).forEach(function (v, i) { var a = readAmount(v, name + " month " + (i + 1), errors, prefix + i, fieldErrors); if (a !== null) t += a; });
+    return round2(t);
+  }
+  var current = sum(inp.current, "c", "Past 12 months:"), projected = sum(inp.projected, "f", "Next 12 months:");
+  var thr = inp.nonProfit ? THRESHOLD_NFP : THRESHOLD;
+  var r = { ok: errors.length === 0, errors: errors, warnings: warnings, fieldErrors: fieldErrors, threshold: thr, current: current, projected: projected };
+  r.currentReached = current >= thr; r.projectedReached = projected >= thr; r.mustRegister = r.currentReached || r.projectedReached;
+  r.currentPct = current / thr * 100; r.projectedPct = projected / thr * 100;
+  r.headroom = round2(Math.max(0, thr - Math.max(current, projected)));
+  if (inp.taxi) { r.mustRegister = true; warnings.push("Taxi and ride-sourcing drivers must register for GST whatever their turnover (ATO)."); }
+  if (inp.registered) warnings.push("You've said you're already registered for GST. This check is for information only.");
+  if (r.currentReached && !r.projectedReached && !inp.taxi) warnings.push("Your past 12 months reached the threshold but your next 12 months don't. The ATO says you don't have to register if it is satisfied your projected GST turnover will be under the threshold. Check with the ATO or your tax agent.");
+  return r;
+}
+function money(n, dp) {
+  if (n === null || n === undefined || !isFinite(n)) return "-";
+  dp = dp === undefined ? 2 : dp;
+  var neg = n < 0, a = Math.abs(n);
+  var s = (dp === 2 ? round2(a) : a).toFixed(dp).split("."), i = s[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+  return (neg ? "-$" : "$") + i + (dp ? "." + s[1] : "");
+}
+if (typeof module !== "undefined") module.exports = { parseNum: parseNum, round2: round2, gstLine: gstLine, calcQuick: calcQuick, calcBas: calcBas, calcThreshold: calcThreshold, money: money };
+
+</script>
+<script>
+(function(){
+var KEY="andwat-gst-bas-v1",MONTHS=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+var now=new Date();
+var DEFAULTS={registered:false,tab:"quick",
+ quick:[{desc:"Labour quote",amount:"1000",mode:"ex"},{desc:"Supplier bill",amount:"550",mode:"inc"}],
+ period:"Example quarter",g1Basis:"inc",
+ sales:[{desc:"Invoices paid this quarter",amount:"22000",mode:"inc",type:"taxable"}],
+ purchases:[{desc:"Materials & fuel",amount:"5500",mode:"inc",type:"taxable",businessPct:"100"}],
+ thisMonth:now.getMonth(),thisYear:now.getFullYear(),current:["5000","5200","6100","5800","6400","5900","6200","6600","7000","6800","7100","7300"],projected:["7400","7400","7400","7400","7400","7400","7400","7400","7400","7400","7400","7400"],nonProfit:false,taxi:false};
+var $=function(id){return document.getElementById(id)};
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function mkLine(list,kind,o){
+  var d=document.createElement("div");d.className="line "+kind;
+  var h='<input type="text" class="desc" aria-label="What it is" placeholder="What it is"><input type="text" inputmode="decimal" class="amt" aria-label="Amount" placeholder="0.00">'
+   +'<select class="mode" aria-label="Does the amount include GST"><option value="ex">ex GST</option><option value="inc">inc GST</option></select>';
+  if(kind==="s")h+='<select class="type" aria-label="GST treatment"><option value="taxable">Taxable</option><option value="gstfree">GST-free</option></select>';
+  if(kind==="p")h+='<select class="type" aria-label="GST in price"><option value="taxable">GST in price</option><option value="nogst">No GST</option></select><label class="pctwrap"><span class="mlbl">Business use %</span><input type="text" inputmode="decimal" class="pct" aria-label="Business use %" placeholder="100"></label>';
+  h+='<button type="button" class="x noprint" aria-label="Remove line" title="Remove">×</button>';
+  d.innerHTML=h;d.querySelector(".desc").value=o.desc||"";d.querySelector(".amt").value=o.amount||"";d.querySelector(".mode").value=o.mode||(kind==="q"?"ex":"inc");
+  if(kind!=="q")d.querySelector(".type").value=o.type||"taxable";
+  if(kind==="p")d.querySelector(".pct").value=o.businessPct===undefined?"100":o.businessPct;
+  d.querySelector(".x").onclick=function(){d.remove();update()};
+  $(list).appendChild(d);
+}
+function readLines(list,kind){return[].map.call(document.querySelectorAll("#"+list+" .line"),function(d){var o={desc:d.querySelector(".desc").value,amount:d.querySelector(".amt").value,mode:d.querySelector(".mode").value};if(kind!=="q")o.type=d.querySelector(".type").value;if(kind==="p")o.businessPct=d.querySelector(".pct").value;return o})}
+function monthLabel(offset){var m=+$("thisMonth").value,y=+$("thisYear").value,t=new Date(y,m+offset,1);return MONTHS[t.getMonth()]+" "+t.getFullYear()}
+function buildGrids(cur,proj){
+  var c="",p="";for(var i=0;i<12;i++){c+='<div><label for="c'+i+'" id="cl'+i+'"></label><input type="text" inputmode="decimal" id="c'+i+'"></div>';p+='<div><label for="f'+i+'" id="fl'+i+'"></label><input type="text" inputmode="decimal" id="f'+i+'"></div>'}
+  $("curGrid").innerHTML=c;$("projGrid").innerHTML=p;
+  for(i=0;i<12;i++){$("c"+i).value=(cur&&cur[i])||"";$("f"+i).value=(proj&&proj[i])||""}
+  labelGrids();
+}
+function labelGrids(){for(var i=0;i<12;i++){$("cl"+i).textContent=monthLabel(i-11)+(i===11?" (this month)":"");$("fl"+i).textContent=monthLabel(i)+(i===0?" (this month)":"")}}
+function state(){
+  var s={registered:$("registered").checked,tab:currentTab,quick:readLines("qList","q"),period:$("period").value,g1Basis:$("g1Basis").value,sales:readLines("sList","s"),purchases:readLines("pList","p"),
+   thisMonth:+$("thisMonth").value,thisYear:+$("thisYear").value,current:[],projected:[],nonProfit:$("nonProfit").checked,taxi:$("taxi").checked};
+  for(var i=0;i<12;i++){s.current.push($("c"+i).value);s.projected.push($("f"+i).value)}return s;
+}
+function load(s){
+  $("registered").checked=!!s.registered;$("qList").innerHTML="";$("sList").innerHTML="";$("pList").innerHTML="";
+  (s.quick||[]).forEach(function(o){mkLine("qList","q",o)});(s.sales||[]).forEach(function(o){mkLine("sList","s",o)});(s.purchases||[]).forEach(function(o){mkLine("pList","p",o)});
+  $("period").value=s.period||"";$("g1Basis").value=s.g1Basis||"inc";
+  var ys="",y0=now.getFullYear();for(var y=y0-3;y<=y0+2;y++)ys+='<option value="'+y+'">'+y+'</option>';$("thisYear").innerHTML=ys;
+  $("thisMonth").innerHTML=MONTHS.map(function(m,i){return'<option value="'+i+'">'+m+'</option>'}).join("");
+  $("thisMonth").value=String(s.thisMonth===undefined?now.getMonth():s.thisMonth);$("thisYear").value=String(s.thisYear||y0);if(!$("thisYear").value)$("thisYear").value=String(y0);
+  buildGrids(s.current,s.projected);$("nonProfit").checked=!!s.nonProfit;$("taxi").checked=!!s.taxi;
+  setTab(s.tab||"quick",true);
+}
+var currentTab="quick";
+function setTab(t,silent){currentTab=t;[].forEach.call(document.querySelectorAll(".tab"),function(b){b.setAttribute("aria-selected",b.getAttribute("data-p")===t?"true":"false")});
+ ["quick","bas","thr"].forEach(function(p){$("p-"+p).classList.toggle("on",p===t)});if(!silent)update()}
+function msgs(r){var h="";if(r.errors.length)h+='<div class="msg err"><b>Fix these:</b><ul>'+r.errors.map(function(e){return"<li>"+esc(e)+"</li>"}).join("")+"</ul></div>";
+ if(r.warnings.length)h+='<div class="msg warn"><ul style="margin:0">'+r.warnings.map(function(e){return"<li>"+esc(e)+"</li>"}).join("")+"</ul></div>";return h}
+function flag(list,prefix,r,extra){[].forEach.call(document.querySelectorAll("#"+list+" .line"),function(d,i){d.querySelector(".amt").classList.toggle("bad",!!r.fieldErrors[prefix+i]);if(extra)d.querySelector(".pct").classList.toggle("bad",!!r.fieldErrors[extra+i])})}
+function row(a,b,cls){return'<tr class="'+(cls||"")+'"><td>'+a+'</td><td class="r">'+b+"</td></tr>"}
+function update(){
+  var s=state(),reg=s.registered;try{localStorage.setItem(KEY,JSON.stringify(s))}catch(e){}
+  var today=new Date(),ds=("0"+today.getDate()).slice(-2)+"/"+("0"+(today.getMonth()+1)).slice(-2)+"/"+today.getFullYear(),pc="",mb="";
+  var q=calcQuick({lines:s.quick,registered:reg});flag("qList","q",q);$("qMsg").innerHTML=msgs(q);$("qOut").style.display=q.ok?"":"none";
+  if(q.ok){$("qInc").textContent=money(q.total.inc);$("qEx").textContent=money(q.total.ex);$("qGst").textContent=money(q.total.gst);$("qN").textContent=q.lines.length;
+   $("qSub").textContent=money(q.total.ex)+" + "+money(q.total.gst)+" GST";
+   $("qTable").innerHTML=q.lines.map(function(l){return'<tr><td>'+esc(l.desc)+'<div class="small">'+(l.mode==="inc"?"entered including GST":"entered excluding GST")+'</div></td><td class="r">'+money(l.ex)+'</td><td class="r">'+money(l.gst)+'</td><td class="r">'+money(l.inc)+"</td></tr>"}).join("")+'<tr class="tot"><td>Total</td><td class="r">'+money(q.total.ex)+'</td><td class="r">'+money(q.total.gst)+'</td><td class="r">'+money(q.total.inc)+"</td></tr>";
+   if(currentTab==="quick"){mb="Total "+money(q.total.inc)+" inc GST";pc='<h1>GST calculation</h1><div>Worked out '+ds+'</div><div class="rule"></div><table><thead><tr><th>Line</th><th class="r">Ex GST</th><th class="r">GST</th><th class="r">Inc GST</th></tr></thead><tbody>'+q.lines.map(function(l){return'<tr><td>'+esc(l.desc)+'</td><td class="r">'+money(l.ex)+'</td><td class="r">'+money(l.gst)+'</td><td class="r">'+money(l.inc)+'</td></tr>'}).join("")+'<tr class="hl"><td><b>Total</b></td><td class="r"><b>'+money(q.total.ex)+'</b></td><td class="r"><b>'+money(q.total.gst)+'</b></td><td class="r"><b>'+money(q.total.inc)+'</b></td></tr></tbody></table>'}}
+  else if(currentTab==="quick")mb="Fix the amounts marked in red";
+  var b=calcBas({sales:s.sales,purchases:s.purchases,g1Basis:s.g1Basis,registered:reg,period:s.period});flag("sList","s",b);flag("pList","p",b,"pp");$("bMsg").innerHTML=msgs(b);$("bOut").style.display=b.ok?"":"none";
+  if(b.ok){var B=b.bas;$("bG1").textContent=money(B.G1,0);$("b1A").textContent=money(B["1A"],0);$("b1B").textContent=money(B["1B"],0);$("bG1Lbl").textContent="G1 Total sales ("+(b.g1Basis==="inc"?"inc":"ex")+" GST)";
+   $("bNetLbl").textContent=b.result==="pay"?"Estimated GST to pay (1A − 1B)":b.result==="refund"?"Estimated GST refund (1B more than 1A)":"Net GST";$("bNet").textContent=money(Math.abs(B.net),0);
+   $("bNetSub").textContent=b.result==="pay"?"Keep this aside for the ATO.":b.result==="refund"?"Your GST credits are more than the GST on your sales.":"Nothing to pay or refund.";
+   var t=row("Taxable and GST-free sales, "+(b.g1Basis==="inc"?"including":"excluding")+" GST",money(b.exact.g1))+row("of which GST-free sales",money(b.gstFreeSales))+row("GST in your taxable sales (1/11 or 10%)",money(b.exact.a1))+row("GST credits on purchases, business share only",money(b.exact.b1))+row("Net GST, exact to the cent",money(b.exact.net))+row("BAS in whole dollars: G1 / 1A / 1B",money(B.G1,0)+" / "+money(B["1A"],0)+" / "+money(B["1B"],0),"tot");
+   if(b.needInvoice.length)t+=row("Need a tax invoice (over $82.50 inc GST)",esc(b.needInvoice.map(function(n){return n.desc}).join(", ")));
+   $("bTable").innerHTML=t;
+   if(currentTab==="bas"){mb=(b.result==="refund"?"Refund ":"GST to pay ")+money(Math.abs(B.net),0);pc='<h1>Simpler BAS estimate'+(s.period?" – "+esc(s.period):"")+'</h1><div>Worked out '+ds+(reg?"":" · NOT registered for GST: figures for information only")+'</div><div class="rule"></div><table><tbody>'+row("G1 Total sales ("+(b.g1Basis==="inc"?"including":"excluding")+" GST)",money(B.G1,0))+row("1A GST on sales",money(B["1A"],0))+row("1B GST on purchases",money(B["1B"],0))+'<tr class="hl"><td><b>'+(b.result==="refund"?"Estimated refund":"Estimated GST to pay")+'</b></td><td class="r"><b>'+money(Math.abs(B.net),0)+'</b></td></tr></tbody></table><h3>Sales</h3><table><thead><tr><th>Sale</th><th>Type</th><th class="r">G1 amount</th><th class="r">GST</th></tr></thead><tbody>'+b.sales.map(function(x){return'<tr><td>'+esc(x.desc)+'</td><td>'+(x.type==="gstfree"?"GST-free":"Taxable")+'</td><td class="r">'+money(x.g1)+'</td><td class="r">'+money(x.gst)+'</td></tr>'}).join("")+'</tbody></table><h3>Purchases</h3><table><thead><tr><th>Purchase</th><th class="r">GST in price</th><th class="r">Business %</th><th class="r">Credit</th></tr></thead><tbody>'+b.purchases.map(function(x){return'<tr><td>'+esc(x.desc)+'</td><td class="r">'+money(x.gst)+'</td><td class="r">'+x.pct+'%</td><td class="r">'+money(x.credit)+'</td></tr>'}).join("")+'</tbody></table>'+(b.needInvoice.length?'<p>Tax invoice needed before claiming: '+esc(b.needInvoice.map(function(n){return n.desc}).join(", "))+'</p>':'')}}
+  else if(currentTab==="bas")mb="Fix the amounts marked in red";
+  labelGrids();
+  var th=calcThreshold({current:s.current,projected:s.projected,nonProfit:s.nonProfit,taxi:s.taxi,registered:reg});
+  for(var i=0;i<12;i++){$("c"+i).classList.toggle("bad",!!th.fieldErrors["c"+i]);$("f"+i).classList.toggle("bad",!!th.fieldErrors["f"+i])}
+  $("tMsg").innerHTML=msgs(th);$("tOut").style.display=th.ok?"":"none";
+  if(th.ok){var T=money(th.threshold,0);$("tHead").textContent=th.mustRegister?"You need to register for GST":"Under the "+T+" threshold";
+   $("tSub").textContent=th.mustRegister?(s.taxi?"Taxi and ride-sourcing must register.":"You've reached "+T+". The ATO says to register within 21 days."):"Room left before "+T+": "+money(th.headroom,0)+". Check again every month.";
+   $("tCur").textContent=money(th.current,0)+" ("+Math.round(th.currentPct)+"% of "+T+")";$("tProj").textContent=money(th.projected,0)+" ("+Math.round(th.projectedPct)+"% of "+T+")";
+   $("tCurBar").style.width=Math.min(100,th.currentPct)+"%";$("tCurBar").className=th.currentReached?"over":"";$("tProjBar").style.width=Math.min(100,th.projectedPct)+"%";$("tProjBar").className=th.projectedReached?"over":"";
+   if(currentTab==="thr"){mb=th.mustRegister?"Register for GST":"Under "+T;pc='<h1>GST registration check</h1><div>Worked out '+ds+' · this month: '+monthLabel(0)+'</div><div class="rule"></div><table><tbody>'+row("Past 12 months GST turnover ("+monthLabel(-11)+" to "+monthLabel(0)+")",money(th.current,0))+row("Next 12 months, expected ("+monthLabel(0)+" to "+monthLabel(11)+")",money(th.projected,0))+row("Threshold",T)+'<tr class="hl"><td><b>Result</b></td><td class="r"><b>'+(th.mustRegister?"Register within 21 days":"Under the threshold")+'</b></td></tr></tbody></table>'}}
+  else if(currentTab==="thr")mb="Fix the amounts marked in red";
+  if(pc)pc+='<p class="small">Estimate from your own figures using the 10% GST rate and ATO rules checked 25/10/2026. Not tax advice. Andwat Co GST &amp; BAS Quick Calculator · payhip.com/Andwatco</p>';
+  $("printCard").innerHTML=pc;$("mbarTxt").textContent=mb;
+}
+var saved=null;try{saved=JSON.parse(localStorage.getItem(KEY)||"null")}catch(e){}
+load(saved&&saved.quick?saved:DEFAULTS);
+if(location.protocol==="http:"||location.protocol==="https:")$("coLink").innerHTML=', and the free <a href="charge-out-rate-calculator.html" target="_blank" rel="noopener">Tradie Charge-Out Rate Calculator</a>';
+[].forEach.call(document.querySelectorAll(".tab"),function(bt){bt.onclick=function(){setTab(bt.getAttribute("data-p"))}});
+$("qAdd").onclick=function(){mkLine("qList","q",{});update()};$("sAdd").onclick=function(){mkLine("sList","s",{});update()};$("pAdd").onclick=function(){mkLine("pList","p",{});update()};
+$("qClear").onclick=function(){$("qList").innerHTML="";mkLine("qList","q",{});update()};
+$("basClear").onclick=function(){$("sList").innerHTML="";$("pList").innerHTML="";mkLine("sList","s",{});mkLine("pList","p",{});update()};
+$("copyCur").onclick=function(){for(var i=0;i<12;i++)$("f"+i).value=$("c"+i).value;update()};
+$("resetBtn").onclick=function(){var d=JSON.parse(JSON.stringify(DEFAULTS));d.tab=currentTab;load(d);update()};
+$("printBtn").onclick=function(){update();window.print()};
+$("mbarLink").onclick=function(e){e.preventDefault();var o={quick:"qMsg",bas:"bMsg",thr:"tMsg"}[currentTab];$(o).scrollIntoView({behavior:"smooth"})};
+document.addEventListener("input",update);document.addEventListener("change",function(e){if(e.target.id==="thisMonth"||e.target.id==="thisYear")labelGrids();update()});
+update();
+})();
+</script>
+<h2>Notes</h2>
+<ul><li>This is a general calculator that only works from the figures you type. It isn't tax advice and it doesn't lodge anything. Check ato.gov.au or ask a registered tax or BAS agent before you lodge.</li>
+<li>GST rate 10%. Registration threshold $75,000 ($150,000 for non-profits). Taxi and ride-sourcing drivers must register whatever their turnover. BAS figures are whole dollars, rounded down. Rules from the ATO pages below, checked 25 October 2026.</li>
+<li>Calculator built by Andwat Co. Free to use. <a href="https://payhip.com/Andwatco" rel="noopener">Andwat Co template store</a>.</li></ul>
+<aside class="kit"><b>Keep your GST records sorted all year</b><br><b>Sole Trader GST, BAS &amp; Expense Tracker (AU)</b> – Works out G1, 1A and 1B for each quarter, tracks GST credits, and includes a 12-week car logbook.<br><a class="btn" href="https://payhip.com/b/jAiHR" rel="noopener">See the Sole Trader GST, BAS &amp; Expense Tracker (A$19)</a></aside><h2>Sources</h2><ul class="sources"><li><a href="https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/gst/registering-for-gst/" rel="noopener">ATO – Registering for GST</a></li><li><a href="https://www.ato.gov.au/businesses-and-organisations/preparing-lodging-and-paying/business-activity-statements-bas/goods-and-services-tax-gst/simpler-bas-gst-bookkeeping-guide" rel="noopener">ATO – Simpler BAS GST bookkeeping guide</a></li><li><a href="https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/gst/completing-your-bas-for-gst/complete-your-bas" rel="noopener">ATO – Instructions for completing your BAS (round down to whole dollars)</a></li><li><a href="https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/gst/tax-invoices" rel="noopener">ATO – Tax invoices</a></li></ul><h2>Related guides</h2><ul><li><a href="simpler-bas-g1-1a-1b-explained.html">Simpler BAS: what goes in G1, 1A and 1B</a></li><li><a href="do-i-need-to-register-for-gst.html">Do I need to register for GST? The $75,000 rule</a></li><li><a href="how-to-quote-a-job-with-gst.html">How to quote a job with GST (Australia)</a></li><li><a href="tax-invoice-requirements-australia.html">What a tax invoice must show (Australia)</a></li><li><a href="tpar-taxable-payments-annual-report-tradies.html">TPAR for tradies: paying subbies and the 28 August report</a></li></ul><h2>Other free tools</h2><ul><li><a href="charge-out-rate-calculator.html">Tradie Charge-Out Rate Calculator</a></li></ul><p class="disc">General information only. It isn't financial or tax advice. Check your own figures and ask a professional if you need to.</p></main>
+<footer><div class="w">Andwat Trade Guides by Andwat Co, free plain-English guides for Australian trades and small businesses. General information only, not legal, tax, WHS or engineering advice. Always check the linked official source. <br><a href="about.html">About</a> · <a href="contact.html">Contact</a> · <a href="privacy.html">Privacy</a> · <a href="https://payhip.com/Andwatco">Template store</a></div></footer>
+</body></html>
