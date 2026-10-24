@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bishoppjay-del.github.io/andwat-media/sitemap.xml
