@@ -27,6 +27,7 @@
   <url><loc>https://bishoppjay-del.github.io/andwat-media/hazardous-chemicals-register-requirements.html</loc><lastmod>2026-10-27</lastmod></url>
   <url><loc>https://bishoppjay-del.github.io/andwat-media/wps-pqr-welding-procedure-as-nzs-1554.html</loc><lastmod>2026-10-27</lastmod></url>
   <url><loc>https://bishoppjay-del.github.io/andwat-media/hot-work-permit-australia.html</loc><lastmod>2026-10-27</lastmod></url>
+<<<<<<< HEAD
   <url>
     <loc>https://bishoppjay-del.github.io/andwat-media/mobile-welder-swms-australia.html</loc>
     <lastmod>2026-10-28</lastmod>
@@ -79,4 +80,8 @@
     <loc>https://bishoppjay-del.github.io/andwat-media/free-welding-swms-sample.html</loc>
     <lastmod>2026-10-29</lastmod>
   </url>
+=======
+  <url><loc>https://bishoppjay-del.github.io/andwat-media/silica-risk-control-plan-qld.html</loc><lastmod>2026-10-29</lastmod></url>
+  <url><loc>https://bishoppjay-del.github.io/andwat-media/welder-qualification-wps-continuity-register.html</loc><lastmod>2026-10-29</lastmod></url>
+>>>>>>> d0a0e95 (Add silica and welder register guides)
 </urlset>
