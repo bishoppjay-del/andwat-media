@@ -1,0 +1,2696 @@
+{
+  "source": "https://steelinfo.au/downloads/all-sections.csv",
+  "sources_note": "Masses (kg/m) from SteelInfo AU public section tables, derived from AS/NZS 3679.1 (hot-rolled) and AS/NZS 1163 (hollow sections). Cross-checked against Steel Supplies AU published UB tables.",
+  "disclaimer": "Masses are nominal published values for takeoff/estimating. Not a substitute for mill certificates or engineering design.",
+  "count": 384,
+  "sections": [
+    {
+      "id": "150UB14.0",
+      "type": "UB",
+      "label": "150UB14.0",
+      "kg_m": 14.0,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "180UB16.1",
+      "type": "UB",
+      "label": "180UB16.1",
+      "kg_m": 16.1,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "150UB18.0",
+      "type": "UB",
+      "label": "150UB18.0",
+      "kg_m": 18.0,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "180UB18.1",
+      "type": "UB",
+      "label": "180UB18.1",
+      "kg_m": 18.1,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "200UB18.2",
+      "type": "UB",
+      "label": "200UB18.2",
+      "kg_m": 18.2,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "180UB22.2",
+      "type": "UB",
+      "label": "180UB22.2",
+      "kg_m": 22.2,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "200UB22.3",
+      "type": "UB",
+      "label": "200UB22.3",
+      "kg_m": 22.3,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "200UB25.4",
+      "type": "UB",
+      "label": "200UB25.4",
+      "kg_m": 25.4,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "250UB25.7",
+      "type": "UB",
+      "label": "250UB25.7",
+      "kg_m": 25.7,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "200UB29.8",
+      "type": "UB",
+      "label": "200UB29.8",
+      "kg_m": 29.8,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "250UB31.4",
+      "type": "UB",
+      "label": "250UB31.4",
+      "kg_m": 31.4,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "310UB32.0",
+      "type": "UB",
+      "label": "310UB32.0",
+      "kg_m": 32.0,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "250UB37.3",
+      "type": "UB",
+      "label": "250UB37.3",
+      "kg_m": 37.3,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "310UB40.4",
+      "type": "UB",
+      "label": "310UB40.4",
+      "kg_m": 40.4,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "360UB44.7",
+      "type": "UB",
+      "label": "360UB44.7",
+      "kg_m": 44.7,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "310UB46.2",
+      "type": "UB",
+      "label": "310UB46.2",
+      "kg_m": 46.2,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "360UB50.7",
+      "type": "UB",
+      "label": "360UB50.7",
+      "kg_m": 50.7,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "410UB53.7",
+      "type": "UB",
+      "label": "410UB53.7",
+      "kg_m": 53.7,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "360UB56.7",
+      "type": "UB",
+      "label": "360UB56.7",
+      "kg_m": 56.7,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "410UB59.7",
+      "type": "UB",
+      "label": "410UB59.7",
+      "kg_m": 59.7,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "460UB67.1",
+      "type": "UB",
+      "label": "460UB67.1",
+      "kg_m": 67.1,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "460UB74.6",
+      "type": "UB",
+      "label": "460UB74.6",
+      "kg_m": 74.6,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "530UB82.0",
+      "type": "UB",
+      "label": "530UB82.0",
+      "kg_m": 82.0,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "460UB82.1",
+      "type": "UB",
+      "label": "460UB82.1",
+      "kg_m": 82.1,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "530UB92.4",
+      "type": "UB",
+      "label": "530UB92.4",
+      "kg_m": 92.4,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "610UB101",
+      "type": "UB",
+      "label": "610UB101",
+      "kg_m": 101.0,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "610UB113",
+      "type": "UB",
+      "label": "610UB113",
+      "kg_m": 113.0,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "610UB125",
+      "type": "UB",
+      "label": "610UB125",
+      "kg_m": 125.0,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "100UC14.8",
+      "type": "UC",
+      "label": "100UC14.8",
+      "kg_m": 14.8,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "150UC23.4",
+      "type": "UC",
+      "label": "150UC23.4",
+      "kg_m": 23.4,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "150UC30.0",
+      "type": "UC",
+      "label": "150UC30.0",
+      "kg_m": 30.0,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "150UC37.2",
+      "type": "UC",
+      "label": "150UC37.2",
+      "kg_m": 37.2,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "200UC46.2",
+      "type": "UC",
+      "label": "200UC46.2",
+      "kg_m": 46.2,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "200UC52.2",
+      "type": "UC",
+      "label": "200UC52.2",
+      "kg_m": 52.2,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "200UC59.5",
+      "type": "UC",
+      "label": "200UC59.5",
+      "kg_m": 59.5,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "250UC72.9",
+      "type": "UC",
+      "label": "250UC72.9",
+      "kg_m": 72.9,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "250UC89.5",
+      "type": "UC",
+      "label": "250UC89.5",
+      "kg_m": 89.5,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "310UC96.8",
+      "type": "UC",
+      "label": "310UC96.8",
+      "kg_m": 96.8,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "310UC118",
+      "type": "UC",
+      "label": "310UC118",
+      "kg_m": 118.0,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "310UC137",
+      "type": "UC",
+      "label": "310UC137",
+      "kg_m": 137.0,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "310UC158",
+      "type": "UC",
+      "label": "310UC158",
+      "kg_m": 158.0,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "75PFC",
+      "type": "PFC",
+      "label": "75PFC",
+      "kg_m": 5.92,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "100PFC",
+      "type": "PFC",
+      "label": "100PFC",
+      "kg_m": 8.33,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "125PFC",
+      "type": "PFC",
+      "label": "125PFC",
+      "kg_m": 11.9,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "150PFC",
+      "type": "PFC",
+      "label": "150PFC",
+      "kg_m": 17.7,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "180PFC",
+      "type": "PFC",
+      "label": "180PFC",
+      "kg_m": 20.9,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "200PFC",
+      "type": "PFC",
+      "label": "200PFC",
+      "kg_m": 22.9,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "230PFC",
+      "type": "PFC",
+      "label": "230PFC",
+      "kg_m": 25.1,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "250PFC",
+      "type": "PFC",
+      "label": "250PFC",
+      "kg_m": 35.5,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "300PFC",
+      "type": "PFC",
+      "label": "300PFC",
+      "kg_m": 40.1,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "380PFC",
+      "type": "PFC",
+      "label": "380PFC",
+      "kg_m": 55.2,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "25x25x3EA",
+      "type": "EA",
+      "label": "25x25x3EA",
+      "kg_m": 1.12,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "30x30x3EA",
+      "type": "EA",
+      "label": "30x30x3EA",
+      "kg_m": 1.35,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "25x25x5EA",
+      "type": "EA",
+      "label": "25x25x5EA",
+      "kg_m": 1.65,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "40x40x3EA",
+      "type": "EA",
+      "label": "40x40x3EA",
+      "kg_m": 1.83,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "30x30x5EA",
+      "type": "EA",
+      "label": "30x30x5EA",
+      "kg_m": 2.01,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "25x25x6EA",
+      "type": "EA",
+      "label": "25x25x6EA",
+      "kg_m": 2.08,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "50x50x3EA",
+      "type": "EA",
+      "label": "50x50x3EA",
+      "kg_m": 2.31,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "30x30x6EA",
+      "type": "EA",
+      "label": "30x30x6EA",
+      "kg_m": 2.56,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "40x40x5EA",
+      "type": "EA",
+      "label": "40x40x5EA",
+      "kg_m": 2.73,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "50x50x5EA",
+      "type": "EA",
+      "label": "50x50x5EA",
+      "kg_m": 3.48,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "40x40x6EA",
+      "type": "EA",
+      "label": "40x40x6EA",
+      "kg_m": 3.5,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "55x55x5EA",
+      "type": "EA",
+      "label": "55x55x5EA",
+      "kg_m": 3.84,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "50x50x6EA",
+      "type": "EA",
+      "label": "50x50x6EA",
+      "kg_m": 4.46,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "65x65x5EA",
+      "type": "EA",
+      "label": "65x65x5EA",
+      "kg_m": 4.56,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "55x55x6EA",
+      "type": "EA",
+      "label": "55x55x6EA",
+      "kg_m": 4.93,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "75x75x5EA",
+      "type": "EA",
+      "label": "75x75x5EA",
+      "kg_m": 5.27,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "50x50x8EA",
+      "type": "EA",
+      "label": "50x50x8EA",
+      "kg_m": 5.68,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "65x65x6EA",
+      "type": "EA",
+      "label": "65x65x6EA",
+      "kg_m": 5.87,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "75x75x6EA",
+      "type": "EA",
+      "label": "75x75x6EA",
+      "kg_m": 6.81,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "65x65x8EA",
+      "type": "EA",
+      "label": "65x65x8EA",
+      "kg_m": 7.51,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "90x90x6EA",
+      "type": "EA",
+      "label": "90x90x6EA",
+      "kg_m": 8.22,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "75x75x8EA",
+      "type": "EA",
+      "label": "75x75x8EA",
+      "kg_m": 8.73,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "65x65x10EA",
+      "type": "EA",
+      "label": "65x65x10EA",
+      "kg_m": 9.02,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "100x100x6EA",
+      "type": "EA",
+      "label": "100x100x6EA",
+      "kg_m": 9.16,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "75x75x10EA",
+      "type": "EA",
+      "label": "75x75x10EA",
+      "kg_m": 10.5,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "90x90x8EA",
+      "type": "EA",
+      "label": "90x90x8EA",
+      "kg_m": 10.6,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "100x100x8EA",
+      "type": "EA",
+      "label": "100x100x8EA",
+      "kg_m": 11.8,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "90x90x10EA",
+      "type": "EA",
+      "label": "90x90x10EA",
+      "kg_m": 12.7,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "100x100x10EA",
+      "type": "EA",
+      "label": "100x100x10EA",
+      "kg_m": 14.2,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "125x125x8EA",
+      "type": "EA",
+      "label": "125x125x8EA",
+      "kg_m": 14.9,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "100x100x12EA",
+      "type": "EA",
+      "label": "100x100x12EA",
+      "kg_m": 17.7,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "125x125x10EA",
+      "type": "EA",
+      "label": "125x125x10EA",
+      "kg_m": 18.0,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "150x150x10EA",
+      "type": "EA",
+      "label": "150x150x10EA",
+      "kg_m": 21.9,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "125x125x12EA",
+      "type": "EA",
+      "label": "125x125x12EA",
+      "kg_m": 22.5,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "150x150x12EA",
+      "type": "EA",
+      "label": "150x150x12EA",
+      "kg_m": 27.3,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "125x125x16EA",
+      "type": "EA",
+      "label": "125x125x16EA",
+      "kg_m": 29.1,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "150x150x16EA",
+      "type": "EA",
+      "label": "150x150x16EA",
+      "kg_m": 35.4,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "65x50x5UA",
+      "type": "UA",
+      "label": "65x50x5UA",
+      "kg_m": 4.02,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "75x50x5UA",
+      "type": "UA",
+      "label": "75x50x5UA",
+      "kg_m": 4.4,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "65x50x6UA",
+      "type": "UA",
+      "label": "65x50x6UA",
+      "kg_m": 5.16,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "75x50x6UA",
+      "type": "UA",
+      "label": "75x50x6UA",
+      "kg_m": 5.66,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "65x50x8UA",
+      "type": "UA",
+      "label": "65x50x8UA",
+      "kg_m": 6.59,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "75x50x8UA",
+      "type": "UA",
+      "label": "75x50x8UA",
+      "kg_m": 7.23,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "100x75x6UA",
+      "type": "UA",
+      "label": "100x75x6UA",
+      "kg_m": 7.98,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "125x75x6UA",
+      "type": "UA",
+      "label": "125x75x6UA",
+      "kg_m": 9.16,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "100x75x8UA",
+      "type": "UA",
+      "label": "100x75x8UA",
+      "kg_m": 10.3,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "125x75x8UA",
+      "type": "UA",
+      "label": "125x75x8UA",
+      "kg_m": 11.8,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "100x75x10UA",
+      "type": "UA",
+      "label": "100x75x10UA",
+      "kg_m": 12.4,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "125x75x10UA",
+      "type": "UA",
+      "label": "125x75x10UA",
+      "kg_m": 14.2,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "150x90x8UA",
+      "type": "UA",
+      "label": "150x90x8UA",
+      "kg_m": 14.3,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "150x90x10UA",
+      "type": "UA",
+      "label": "150x90x10UA",
+      "kg_m": 17.3,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "125x75x12UA",
+      "type": "UA",
+      "label": "125x75x12UA",
+      "kg_m": 17.7,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "150x100x10UA",
+      "type": "UA",
+      "label": "150x100x10UA",
+      "kg_m": 18.0,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "150x90x12UA",
+      "type": "UA",
+      "label": "150x90x12UA",
+      "kg_m": 21.6,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "150x100x12UA",
+      "type": "UA",
+      "label": "150x100x12UA",
+      "kg_m": 22.5,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "150x90x16UA",
+      "type": "UA",
+      "label": "150x90x16UA",
+      "kg_m": 27.9,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "20x20x1.6SHS",
+      "type": "SHS",
+      "label": "20x20x1.6SHS",
+      "kg_m": 0.873,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "20x20x2.0SHS",
+      "type": "SHS",
+      "label": "20x20x2.0SHS",
+      "kg_m": 1.05,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "25x25x1.6SHS",
+      "type": "SHS",
+      "label": "25x25x1.6SHS",
+      "kg_m": 1.12,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "25x25x2.0SHS",
+      "type": "SHS",
+      "label": "25x25x2.0SHS",
+      "kg_m": 1.36,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "30x30x1.6SHS",
+      "type": "SHS",
+      "label": "30x30x1.6SHS",
+      "kg_m": 1.38,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "35x35x1.6SHS",
+      "type": "SHS",
+      "label": "35x35x1.6SHS",
+      "kg_m": 1.63,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "25x25x2.5SHS",
+      "type": "SHS",
+      "label": "25x25x2.5SHS",
+      "kg_m": 1.64,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "30x30x2.0SHS",
+      "type": "SHS",
+      "label": "30x30x2.0SHS",
+      "kg_m": 1.68,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "40x40x1.6SHS",
+      "type": "SHS",
+      "label": "40x40x1.6SHS",
+      "kg_m": 1.88,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "25x25x3.0SHS",
+      "type": "SHS",
+      "label": "25x25x3.0SHS",
+      "kg_m": 1.89,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "35x35x2.0SHS",
+      "type": "SHS",
+      "label": "35x35x2.0SHS",
+      "kg_m": 1.99,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "30x30x2.5SHS",
+      "type": "SHS",
+      "label": "30x30x2.5SHS",
+      "kg_m": 2.03,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "40x40x2.0SHS",
+      "type": "SHS",
+      "label": "40x40x2.0SHS",
+      "kg_m": 2.31,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "30x30x3.0SHS",
+      "type": "SHS",
+      "label": "30x30x3.0SHS",
+      "kg_m": 2.36,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "50x50x1.6SHS",
+      "type": "SHS",
+      "label": "50x50x1.6SHS",
+      "kg_m": 2.38,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "35x35x2.5SHS",
+      "type": "SHS",
+      "label": "35x35x2.5SHS",
+      "kg_m": 2.42,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "40x40x2.5SHS",
+      "type": "SHS",
+      "label": "40x40x2.5SHS",
+      "kg_m": 2.82,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "35x35x3.0SHS",
+      "type": "SHS",
+      "label": "35x35x3.0SHS",
+      "kg_m": 2.83,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "50x50x2.0SHS",
+      "type": "SHS",
+      "label": "50x50x2.0SHS",
+      "kg_m": 2.93,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "65x65x1.6SHS",
+      "type": "SHS",
+      "label": "65x65x1.6SHS",
+      "kg_m": 3.13,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "40x40x3.0SHS",
+      "type": "SHS",
+      "label": "40x40x3.0SHS",
+      "kg_m": 3.3,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "50x50x2.5SHS",
+      "type": "SHS",
+      "label": "50x50x2.5SHS",
+      "kg_m": 3.6,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "65x65x2.0SHS",
+      "type": "SHS",
+      "label": "65x65x2.0SHS",
+      "kg_m": 3.88,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "40x40x4.0SHS",
+      "type": "SHS",
+      "label": "40x40x4.0SHS",
+      "kg_m": 4.09,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "50x50x3.0SHS",
+      "type": "SHS",
+      "label": "50x50x3.0SHS",
+      "kg_m": 4.25,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "75x75x2.0SHS",
+      "type": "SHS",
+      "label": "75x75x2.0SHS",
+      "kg_m": 4.5,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "65x65x2.5SHS",
+      "type": "SHS",
+      "label": "65x65x2.5SHS",
+      "kg_m": 4.78,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "50x50x4.0SHS",
+      "type": "SHS",
+      "label": "50x50x4.0SHS",
+      "kg_m": 5.35,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "89x89x2.0SHS",
+      "type": "SHS",
+      "label": "89x89x2.0SHS",
+      "kg_m": 5.38,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "90x90x2.0SHS",
+      "type": "SHS",
+      "label": "90x90x2.0SHS",
+      "kg_m": 5.45,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "75x75x2.5SHS",
+      "type": "SHS",
+      "label": "75x75x2.5SHS",
+      "kg_m": 5.56,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "65x65x3.0SHS",
+      "type": "SHS",
+      "label": "65x65x3.0SHS",
+      "kg_m": 5.66,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "50x50x5.0SHS",
+      "type": "SHS",
+      "label": "50x50x5.0SHS",
+      "kg_m": 6.39,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "75x75x3.0SHS",
+      "type": "SHS",
+      "label": "75x75x3.0SHS",
+      "kg_m": 6.6,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "90x90x2.5SHS",
+      "type": "SHS",
+      "label": "90x90x2.5SHS",
+      "kg_m": 6.74,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "65x65x4.0SHS",
+      "type": "SHS",
+      "label": "65x65x4.0SHS",
+      "kg_m": 7.23,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "50x50x6.0SHS",
+      "type": "SHS",
+      "label": "50x50x6.0SHS",
+      "kg_m": 7.32,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "100x100x2.5SHS",
+      "type": "SHS",
+      "label": "100x100x2.5SHS",
+      "kg_m": 7.53,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "75x75x3.5SHS",
+      "type": "SHS",
+      "label": "75x75x3.5SHS",
+      "kg_m": 7.53,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "75x75x4.0SHS",
+      "type": "SHS",
+      "label": "75x75x4.0SHS",
+      "kg_m": 8.49,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "65x65x5.0SHS",
+      "type": "SHS",
+      "label": "65x65x5.0SHS",
+      "kg_m": 8.75,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "100x100x3.0SHS",
+      "type": "SHS",
+      "label": "100x100x3.0SHS",
+      "kg_m": 8.96,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "89x89x3.5SHS",
+      "type": "SHS",
+      "label": "89x89x3.5SHS",
+      "kg_m": 9.07,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "65x65x6.0SHS",
+      "type": "SHS",
+      "label": "65x65x6.0SHS",
+      "kg_m": 10.1,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "75x75x5.0SHS",
+      "type": "SHS",
+      "label": "75x75x5.0SHS",
+      "kg_m": 10.3,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "100x100x4.0SHS",
+      "type": "SHS",
+      "label": "100x100x4.0SHS",
+      "kg_m": 11.6,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "75x75x6.0SHS",
+      "type": "SHS",
+      "label": "75x75x6.0SHS",
+      "kg_m": 12.0,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "89x89x5.0SHS",
+      "type": "SHS",
+      "label": "89x89x5.0SHS",
+      "kg_m": 12.5,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "100x100x5.0SHS",
+      "type": "SHS",
+      "label": "100x100x5.0SHS",
+      "kg_m": 14.2,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "89x89x6.0SHS",
+      "type": "SHS",
+      "label": "89x89x6.0SHS",
+      "kg_m": 14.7,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "125x125x4.0SHS",
+      "type": "SHS",
+      "label": "125x125x4.0SHS",
+      "kg_m": 14.8,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "100x100x6.0SHS",
+      "type": "SHS",
+      "label": "100x100x6.0SHS",
+      "kg_m": 16.7,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "125x125x5.0SHS",
+      "type": "SHS",
+      "label": "125x125x5.0SHS",
+      "kg_m": 18.2,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "100x100x8.0SHS",
+      "type": "SHS",
+      "label": "100x100x8.0SHS",
+      "kg_m": 21.4,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "125x125x6.0SHS",
+      "type": "SHS",
+      "label": "125x125x6.0SHS",
+      "kg_m": 21.4,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "150x150x5.0SHS",
+      "type": "SHS",
+      "label": "150x150x5.0SHS",
+      "kg_m": 22.1,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "100x100x9.0SHS",
+      "type": "SHS",
+      "label": "100x100x9.0SHS",
+      "kg_m": 23.5,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "100x100x10.0SHS",
+      "type": "SHS",
+      "label": "100x100x10.0SHS",
+      "kg_m": 25.6,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "150x150x6.0SHS",
+      "type": "SHS",
+      "label": "150x150x6.0SHS",
+      "kg_m": 26.2,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "125x125x8.0SHS",
+      "type": "SHS",
+      "label": "125x125x8.0SHS",
+      "kg_m": 27.7,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "200x200x5.0SHS",
+      "type": "SHS",
+      "label": "200x200x5.0SHS",
+      "kg_m": 29.9,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "125x125x9.0SHS",
+      "type": "SHS",
+      "label": "125x125x9.0SHS",
+      "kg_m": 30.6,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "125x125x10.0SHS",
+      "type": "SHS",
+      "label": "125x125x10.0SHS",
+      "kg_m": 33.4,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "150x150x8.0SHS",
+      "type": "SHS",
+      "label": "150x150x8.0SHS",
+      "kg_m": 33.9,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "200x200x6.0SHS",
+      "type": "SHS",
+      "label": "200x200x6.0SHS",
+      "kg_m": 35.6,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "150x150x9.0SHS",
+      "type": "SHS",
+      "label": "150x150x9.0SHS",
+      "kg_m": 37.7,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "150x150x10.0SHS",
+      "type": "SHS",
+      "label": "150x150x10.0SHS",
+      "kg_m": 41.3,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "200x200x8.0SHS",
+      "type": "SHS",
+      "label": "200x200x8.0SHS",
+      "kg_m": 46.5,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "200x200x9.0SHS",
+      "type": "SHS",
+      "label": "200x200x9.0SHS",
+      "kg_m": 51.8,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "200x200x10.0SHS",
+      "type": "SHS",
+      "label": "200x200x10.0SHS",
+      "kg_m": 57.0,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "200x200x12.5SHS",
+      "type": "SHS",
+      "label": "200x200x12.5SHS",
+      "kg_m": 69.4,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "200x200x16.0SHS",
+      "type": "SHS",
+      "label": "200x200x16.0SHS",
+      "kg_m": 85.5,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "50x20x1.6RHS",
+      "type": "RHS",
+      "label": "50x20x1.6RHS",
+      "kg_m": 1.63,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "50x25x1.6RHS",
+      "type": "RHS",
+      "label": "50x25x1.6RHS",
+      "kg_m": 1.75,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "50x20x2.0RHS",
+      "type": "RHS",
+      "label": "50x20x2.0RHS",
+      "kg_m": 1.99,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "50x25x2.0RHS",
+      "type": "RHS",
+      "label": "50x25x2.0RHS",
+      "kg_m": 2.15,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "75x25x1.6RHS",
+      "type": "RHS",
+      "label": "75x25x1.6RHS",
+      "kg_m": 2.38,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "50x20x2.5RHS",
+      "type": "RHS",
+      "label": "50x20x2.5RHS",
+      "kg_m": 2.42,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "50x25x2.5RHS",
+      "type": "RHS",
+      "label": "50x25x2.5RHS",
+      "kg_m": 2.62,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "50x20x3.0RHS",
+      "type": "RHS",
+      "label": "50x20x3.0RHS",
+      "kg_m": 2.83,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "65x35x2.0RHS",
+      "type": "RHS",
+      "label": "65x35x2.0RHS",
+      "kg_m": 2.93,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "75x25x2.0RHS",
+      "type": "RHS",
+      "label": "75x25x2.0RHS",
+      "kg_m": 2.93,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "75x50x1.6RHS",
+      "type": "RHS",
+      "label": "75x50x1.6RHS",
+      "kg_m": 3.01,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "50x25x3.0RHS",
+      "type": "RHS",
+      "label": "50x25x3.0RHS",
+      "kg_m": 3.07,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "65x35x2.5RHS",
+      "type": "RHS",
+      "label": "65x35x2.5RHS",
+      "kg_m": 3.6,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "75x25x2.5RHS",
+      "type": "RHS",
+      "label": "75x25x2.5RHS",
+      "kg_m": 3.6,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "100x50x1.6RHS",
+      "type": "RHS",
+      "label": "100x50x1.6RHS",
+      "kg_m": 3.64,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "75x50x2.0RHS",
+      "type": "RHS",
+      "label": "75x50x2.0RHS",
+      "kg_m": 3.72,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "76x38x2.5RHS",
+      "type": "RHS",
+      "label": "76x38x2.5RHS",
+      "kg_m": 4.15,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "65x35x3.0RHS",
+      "type": "RHS",
+      "label": "65x35x3.0RHS",
+      "kg_m": 4.25,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "100x50x2.0RHS",
+      "type": "RHS",
+      "label": "100x50x2.0RHS",
+      "kg_m": 4.5,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "75x50x2.5RHS",
+      "type": "RHS",
+      "label": "75x50x2.5RHS",
+      "kg_m": 4.58,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "76x38x3.0RHS",
+      "type": "RHS",
+      "label": "76x38x3.0RHS",
+      "kg_m": 4.9,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "65x35x4.0RHS",
+      "type": "RHS",
+      "label": "65x35x4.0RHS",
+      "kg_m": 5.35,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "75x50x3.0RHS",
+      "type": "RHS",
+      "label": "75x50x3.0RHS",
+      "kg_m": 5.42,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "100x50x2.5RHS",
+      "type": "RHS",
+      "label": "100x50x2.5RHS",
+      "kg_m": 5.56,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "125x75x2.0RHS",
+      "type": "RHS",
+      "label": "125x75x2.0RHS",
+      "kg_m": 6.07,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "150x50x2.0RHS",
+      "type": "RHS",
+      "label": "150x50x2.0RHS",
+      "kg_m": 6.07,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "76x38x4.0RHS",
+      "type": "RHS",
+      "label": "76x38x4.0RHS",
+      "kg_m": 6.23,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "100x50x3.0RHS",
+      "type": "RHS",
+      "label": "100x50x3.0RHS",
+      "kg_m": 6.6,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "75x50x4.0RHS",
+      "type": "RHS",
+      "label": "75x50x4.0RHS",
+      "kg_m": 6.92,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "100x50x3.5RHS",
+      "type": "RHS",
+      "label": "100x50x3.5RHS",
+      "kg_m": 7.53,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "125x75x2.5RHS",
+      "type": "RHS",
+      "label": "125x75x2.5RHS",
+      "kg_m": 7.53,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "150x50x2.5RHS",
+      "type": "RHS",
+      "label": "150x50x2.5RHS",
+      "kg_m": 7.53,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "75x50x5.0RHS",
+      "type": "RHS",
+      "label": "75x50x5.0RHS",
+      "kg_m": 8.35,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "100x50x4.0RHS",
+      "type": "RHS",
+      "label": "100x50x4.0RHS",
+      "kg_m": 8.49,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "125x75x3.0RHS",
+      "type": "RHS",
+      "label": "125x75x3.0RHS",
+      "kg_m": 8.96,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "150x50x3.0RHS",
+      "type": "RHS",
+      "label": "150x50x3.0RHS",
+      "kg_m": 8.96,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "102x76x3.5RHS",
+      "type": "RHS",
+      "label": "102x76x3.5RHS",
+      "kg_m": 9.07,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "127x51x3.5RHS",
+      "type": "RHS",
+      "label": "127x51x3.5RHS",
+      "kg_m": 9.07,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "75x50x6.0RHS",
+      "type": "RHS",
+      "label": "75x50x6.0RHS",
+      "kg_m": 9.67,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "100x50x5.0RHS",
+      "type": "RHS",
+      "label": "100x50x5.0RHS",
+      "kg_m": 10.3,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "125x75x4.0RHS",
+      "type": "RHS",
+      "label": "125x75x4.0RHS",
+      "kg_m": 11.6,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "150x50x4.0RHS",
+      "type": "RHS",
+      "label": "150x50x4.0RHS",
+      "kg_m": 11.6,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "100x50x6.0RHS",
+      "type": "RHS",
+      "label": "100x50x6.0RHS",
+      "kg_m": 12.0,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "102x76x5.0RHS",
+      "type": "RHS",
+      "label": "102x76x5.0RHS",
+      "kg_m": 12.5,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "127x51x5.0RHS",
+      "type": "RHS",
+      "label": "127x51x5.0RHS",
+      "kg_m": 12.5,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "125x75x5.0RHS",
+      "type": "RHS",
+      "label": "125x75x5.0RHS",
+      "kg_m": 14.2,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "150x50x5.0RHS",
+      "type": "RHS",
+      "label": "150x50x5.0RHS",
+      "kg_m": 14.2,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "102x76x6.0RHS",
+      "type": "RHS",
+      "label": "102x76x6.0RHS",
+      "kg_m": 14.7,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "127x51x6.0RHS",
+      "type": "RHS",
+      "label": "127x51x6.0RHS",
+      "kg_m": 14.7,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "150x100x4.0RHS",
+      "type": "RHS",
+      "label": "150x100x4.0RHS",
+      "kg_m": 14.8,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "152x76x5.0RHS",
+      "type": "RHS",
+      "label": "152x76x5.0RHS",
+      "kg_m": 16.4,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "125x75x6.0RHS",
+      "type": "RHS",
+      "label": "125x75x6.0RHS",
+      "kg_m": 16.7,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "150x50x6.0RHS",
+      "type": "RHS",
+      "label": "150x50x6.0RHS",
+      "kg_m": 16.7,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "200x100x4.0RHS",
+      "type": "RHS",
+      "label": "200x100x4.0RHS",
+      "kg_m": 17.9,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "150x100x5.0RHS",
+      "type": "RHS",
+      "label": "150x100x5.0RHS",
+      "kg_m": 18.2,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "152x76x6.0RHS",
+      "type": "RHS",
+      "label": "152x76x6.0RHS",
+      "kg_m": 19.4,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "150x100x6.0RHS",
+      "type": "RHS",
+      "label": "150x100x6.0RHS",
+      "kg_m": 21.4,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "200x100x5.0RHS",
+      "type": "RHS",
+      "label": "200x100x5.0RHS",
+      "kg_m": 22.1,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "200x100x6.0RHS",
+      "type": "RHS",
+      "label": "200x100x6.0RHS",
+      "kg_m": 26.2,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "150x100x8.0RHS",
+      "type": "RHS",
+      "label": "150x100x8.0RHS",
+      "kg_m": 27.7,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "250x150x5.0RHS",
+      "type": "RHS",
+      "label": "250x150x5.0RHS",
+      "kg_m": 29.9,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "150x100x9.0RHS",
+      "type": "RHS",
+      "label": "150x100x9.0RHS",
+      "kg_m": 30.6,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "150x100x10.0RHS",
+      "type": "RHS",
+      "label": "150x100x10.0RHS",
+      "kg_m": 33.4,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "200x100x8.0RHS",
+      "type": "RHS",
+      "label": "200x100x8.0RHS",
+      "kg_m": 33.9,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "250x150x6.0RHS",
+      "type": "RHS",
+      "label": "250x150x6.0RHS",
+      "kg_m": 35.6,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "200x100x9.0RHS",
+      "type": "RHS",
+      "label": "200x100x9.0RHS",
+      "kg_m": 37.7,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "200x100x10.0RHS",
+      "type": "RHS",
+      "label": "200x100x10.0RHS",
+      "kg_m": 41.3,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "250x150x8.0RHS",
+      "type": "RHS",
+      "label": "250x150x8.0RHS",
+      "kg_m": 46.5,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "250x150x9.0RHS",
+      "type": "RHS",
+      "label": "250x150x9.0RHS",
+      "kg_m": 51.8,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "250x150x10.0RHS",
+      "type": "RHS",
+      "label": "250x150x10.0RHS",
+      "kg_m": 57.0,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "250x150x12.5RHS",
+      "type": "RHS",
+      "label": "250x150x12.5RHS",
+      "kg_m": 69.4,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "26.9x2.0CHS",
+      "type": "CHS",
+      "label": "26.9x2.0CHS",
+      "kg_m": 1.23,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "26.9x2.3CHS",
+      "type": "CHS",
+      "label": "26.9x2.3CHS",
+      "kg_m": 1.4,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "26.9x2.6CHS",
+      "type": "CHS",
+      "label": "26.9x2.6CHS",
+      "kg_m": 1.56,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "33.7x2.0CHS",
+      "type": "CHS",
+      "label": "33.7x2.0CHS",
+      "kg_m": 1.56,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "26.9x3.2CHS",
+      "type": "CHS",
+      "label": "26.9x3.2CHS",
+      "kg_m": 1.87,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "33.7x2.6CHS",
+      "type": "CHS",
+      "label": "33.7x2.6CHS",
+      "kg_m": 1.99,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "42.4x2.0CHS",
+      "type": "CHS",
+      "label": "42.4x2.0CHS",
+      "kg_m": 1.99,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "26.9x4.0CHS",
+      "type": "CHS",
+      "label": "26.9x4.0CHS",
+      "kg_m": 2.26,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "33.7x3.2CHS",
+      "type": "CHS",
+      "label": "33.7x3.2CHS",
+      "kg_m": 2.41,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "42.4x2.6CHS",
+      "type": "CHS",
+      "label": "42.4x2.6CHS",
+      "kg_m": 2.55,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "48.3x2.3CHS",
+      "type": "CHS",
+      "label": "48.3x2.3CHS",
+      "kg_m": 2.61,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "33.7x4.0CHS",
+      "type": "CHS",
+      "label": "33.7x4.0CHS",
+      "kg_m": 2.93,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "42.4x3.2CHS",
+      "type": "CHS",
+      "label": "42.4x3.2CHS",
+      "kg_m": 3.09,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "48.3x2.9CHS",
+      "type": "CHS",
+      "label": "48.3x2.9CHS",
+      "kg_m": 3.25,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "60.3x2.3CHS",
+      "type": "CHS",
+      "label": "60.3x2.3CHS",
+      "kg_m": 3.29,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "48.3x3.2CHS",
+      "type": "CHS",
+      "label": "48.3x3.2CHS",
+      "kg_m": 3.56,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "42.4x4.0CHS",
+      "type": "CHS",
+      "label": "42.4x4.0CHS",
+      "kg_m": 3.79,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "60.3x2.9CHS",
+      "type": "CHS",
+      "label": "60.3x2.9CHS",
+      "kg_m": 4.11,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "76.1x2.3CHS",
+      "type": "CHS",
+      "label": "76.1x2.3CHS",
+      "kg_m": 4.19,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "48.3x4.0CHS",
+      "type": "CHS",
+      "label": "48.3x4.0CHS",
+      "kg_m": 4.37,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "60.3x3.6CHS",
+      "type": "CHS",
+      "label": "60.3x3.6CHS",
+      "kg_m": 5.03,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "88.9x2.6CHS",
+      "type": "CHS",
+      "label": "88.9x2.6CHS",
+      "kg_m": 5.53,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "76.1x3.2CHS",
+      "type": "CHS",
+      "label": "76.1x3.2CHS",
+      "kg_m": 5.75,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "60.3x4.5CHS",
+      "type": "CHS",
+      "label": "60.3x4.5CHS",
+      "kg_m": 6.19,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "101.6x2.6CHS",
+      "type": "CHS",
+      "label": "101.6x2.6CHS",
+      "kg_m": 6.35,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "76.1x3.6CHS",
+      "type": "CHS",
+      "label": "76.1x3.6CHS",
+      "kg_m": 6.44,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "88.9x3.2CHS",
+      "type": "CHS",
+      "label": "88.9x3.2CHS",
+      "kg_m": 6.76,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "60.3x5.4CHS",
+      "type": "CHS",
+      "label": "60.3x5.4CHS",
+      "kg_m": 7.31,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "101.6x3.2CHS",
+      "type": "CHS",
+      "label": "101.6x3.2CHS",
+      "kg_m": 7.77,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "76.1x4.5CHS",
+      "type": "CHS",
+      "label": "76.1x4.5CHS",
+      "kg_m": 7.95,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "88.9x4.0CHS",
+      "type": "CHS",
+      "label": "88.9x4.0CHS",
+      "kg_m": 8.38,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "114.3x3.2CHS",
+      "type": "CHS",
+      "label": "114.3x3.2CHS",
+      "kg_m": 8.77,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "101.6x4.0CHS",
+      "type": "CHS",
+      "label": "101.6x4.0CHS",
+      "kg_m": 9.63,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "114.3x3.6CHS",
+      "type": "CHS",
+      "label": "114.3x3.6CHS",
+      "kg_m": 9.83,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "139.7x3.0CHS",
+      "type": "CHS",
+      "label": "139.7x3.0CHS",
+      "kg_m": 10.1,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "76.1x5.9CHS",
+      "type": "CHS",
+      "label": "76.1x5.9CHS",
+      "kg_m": 10.2,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "88.9x5.0CHS",
+      "type": "CHS",
+      "label": "88.9x5.0CHS",
+      "kg_m": 10.3,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "139.7x3.5CHS",
+      "type": "CHS",
+      "label": "139.7x3.5CHS",
+      "kg_m": 11.8,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "101.6x5.0CHS",
+      "type": "CHS",
+      "label": "101.6x5.0CHS",
+      "kg_m": 11.9,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "165.1x3.0CHS",
+      "type": "CHS",
+      "label": "165.1x3.0CHS",
+      "kg_m": 12.0,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "88.9x5.9CHS",
+      "type": "CHS",
+      "label": "88.9x5.9CHS",
+      "kg_m": 12.1,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "114.3x4.5CHS",
+      "type": "CHS",
+      "label": "114.3x4.5CHS",
+      "kg_m": 12.2,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "165.1x3.5CHS",
+      "type": "CHS",
+      "label": "165.1x3.5CHS",
+      "kg_m": 13.9,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "114.3x5.4CHS",
+      "type": "CHS",
+      "label": "114.3x5.4CHS",
+      "kg_m": 14.5,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "139.7x5.0CHS",
+      "type": "CHS",
+      "label": "139.7x5.0CHS",
+      "kg_m": 16.6,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "139.7x5.4CHS",
+      "type": "CHS",
+      "label": "139.7x5.4CHS",
+      "kg_m": 17.9,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "168.3x4.8CHS",
+      "type": "CHS",
+      "label": "168.3x4.8CHS",
+      "kg_m": 19.4,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "165.1x5.0CHS",
+      "type": "CHS",
+      "label": "165.1x5.0CHS",
+      "kg_m": 19.7,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "165.1x5.4CHS",
+      "type": "CHS",
+      "label": "165.1x5.4CHS",
+      "kg_m": 21.3,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "219.1x4.8CHS",
+      "type": "CHS",
+      "label": "219.1x4.8CHS",
+      "kg_m": 25.4,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "168.3x6.4CHS",
+      "type": "CHS",
+      "label": "168.3x6.4CHS",
+      "kg_m": 25.6,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "168.3x7.1CHS",
+      "type": "CHS",
+      "label": "168.3x7.1CHS",
+      "kg_m": 28.2,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "219.1x6.4CHS",
+      "type": "CHS",
+      "label": "219.1x6.4CHS",
+      "kg_m": 33.6,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "219.1x8.2CHS",
+      "type": "CHS",
+      "label": "219.1x8.2CHS",
+      "kg_m": 42.6,
+      "standard": "AS/NZS 1163"
+    },
+    {
+      "id": "40x3FL",
+      "type": "FB",
+      "label": "40x3FB",
+      "kg_m": 0.94,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "50x3FL",
+      "type": "FB",
+      "label": "50x3FB",
+      "kg_m": 1.18,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "65x3FL",
+      "type": "FB",
+      "label": "65x3FB",
+      "kg_m": 1.53,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "40x5FL",
+      "type": "FB",
+      "label": "40x5FB",
+      "kg_m": 1.57,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "40x6FL",
+      "type": "FB",
+      "label": "40x6FB",
+      "kg_m": 1.88,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "50x5FL",
+      "type": "FB",
+      "label": "50x5FB",
+      "kg_m": 1.96,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "50x6FL",
+      "type": "FB",
+      "label": "50x6FB",
+      "kg_m": 2.35,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "40x8FL",
+      "type": "FB",
+      "label": "40x8FB",
+      "kg_m": 2.51,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "65x5FL",
+      "type": "FB",
+      "label": "65x5FB",
+      "kg_m": 2.55,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "75x5FL",
+      "type": "FB",
+      "label": "75x5FB",
+      "kg_m": 2.94,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "65x6FL",
+      "type": "FB",
+      "label": "65x6FB",
+      "kg_m": 3.06,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "40x10FL",
+      "type": "FB",
+      "label": "40x10FB",
+      "kg_m": 3.14,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "50x8FL",
+      "type": "FB",
+      "label": "50x8FB",
+      "kg_m": 3.14,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "75x6FL",
+      "type": "FB",
+      "label": "75x6FB",
+      "kg_m": 3.53,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "90x5FL",
+      "type": "FB",
+      "label": "90x5FB",
+      "kg_m": 3.53,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "40x12FL",
+      "type": "FB",
+      "label": "40x12FB",
+      "kg_m": 3.77,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "100x5FL",
+      "type": "FB",
+      "label": "100x5FB",
+      "kg_m": 3.92,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "50x10FL",
+      "type": "FB",
+      "label": "50x10FB",
+      "kg_m": 3.92,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "65x8FL",
+      "type": "FB",
+      "label": "65x8FB",
+      "kg_m": 4.08,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "90x6FL",
+      "type": "FB",
+      "label": "90x6FB",
+      "kg_m": 4.24,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "100x6FL",
+      "type": "FB",
+      "label": "100x6FB",
+      "kg_m": 4.71,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "50x12FL",
+      "type": "FB",
+      "label": "50x12FB",
+      "kg_m": 4.71,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "75x8FL",
+      "type": "FB",
+      "label": "75x8FB",
+      "kg_m": 4.71,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "40x16FL",
+      "type": "FB",
+      "label": "40x16FB",
+      "kg_m": 5.02,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "130x5FL",
+      "type": "FB",
+      "label": "130x5FB",
+      "kg_m": 5.1,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "65x10FL",
+      "type": "FB",
+      "label": "65x10FB",
+      "kg_m": 5.1,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "110x6FL",
+      "type": "FB",
+      "label": "110x6FB",
+      "kg_m": 5.18,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "90x8FL",
+      "type": "FB",
+      "label": "90x8FB",
+      "kg_m": 5.65,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "150x5FL",
+      "type": "FB",
+      "label": "150x5FB",
+      "kg_m": 5.89,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "75x10FL",
+      "type": "FB",
+      "label": "75x10FB",
+      "kg_m": 5.89,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "130x6FL",
+      "type": "FB",
+      "label": "130x6FB",
+      "kg_m": 6.12,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "65x12FL",
+      "type": "FB",
+      "label": "65x12FB",
+      "kg_m": 6.12,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "100x8FL",
+      "type": "FB",
+      "label": "100x8FB",
+      "kg_m": 6.28,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "40x20FL",
+      "type": "FB",
+      "label": "40x20FB",
+      "kg_m": 6.28,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "50x16FL",
+      "type": "FB",
+      "label": "50x16FB",
+      "kg_m": 6.28,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "110x8FL",
+      "type": "FB",
+      "label": "110x8FB",
+      "kg_m": 6.91,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "150x6FL",
+      "type": "FB",
+      "label": "150x6FB",
+      "kg_m": 7.06,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "180x5FL",
+      "type": "FB",
+      "label": "180x5FB",
+      "kg_m": 7.06,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "75x12FL",
+      "type": "FB",
+      "label": "75x12FB",
+      "kg_m": 7.06,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "90x10FL",
+      "type": "FB",
+      "label": "90x10FB",
+      "kg_m": 7.06,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "100x10FL",
+      "type": "FB",
+      "label": "100x10FB",
+      "kg_m": 7.85,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "50x20FL",
+      "type": "FB",
+      "label": "50x20FB",
+      "kg_m": 7.85,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "130x8FL",
+      "type": "FB",
+      "label": "130x8FB",
+      "kg_m": 8.16,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "65x16FL",
+      "type": "FB",
+      "label": "65x16FB",
+      "kg_m": 8.16,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "180x6FL",
+      "type": "FB",
+      "label": "180x6FB",
+      "kg_m": 8.48,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "90x12FL",
+      "type": "FB",
+      "label": "90x12FB",
+      "kg_m": 8.48,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "110x10FL",
+      "type": "FB",
+      "label": "110x10FB",
+      "kg_m": 8.63,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "100x12FL",
+      "type": "FB",
+      "label": "100x12FB",
+      "kg_m": 9.42,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "150x8FL",
+      "type": "FB",
+      "label": "150x8FB",
+      "kg_m": 9.42,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "200x6FL",
+      "type": "FB",
+      "label": "200x6FB",
+      "kg_m": 9.42,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "75x16FL",
+      "type": "FB",
+      "label": "75x16FB",
+      "kg_m": 9.42,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "50x25FL",
+      "type": "FB",
+      "label": "50x25FB",
+      "kg_m": 9.81,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "130x10FL",
+      "type": "FB",
+      "label": "130x10FB",
+      "kg_m": 10.2,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "65x20FL",
+      "type": "FB",
+      "label": "65x20FB",
+      "kg_m": 10.2,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "110x12FL",
+      "type": "FB",
+      "label": "110x12FB",
+      "kg_m": 10.36,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "150x10FL",
+      "type": "FB",
+      "label": "150x10FB",
+      "kg_m": 11.77,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "75x20FL",
+      "type": "FB",
+      "label": "75x20FB",
+      "kg_m": 11.77,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "130x12FL",
+      "type": "FB",
+      "label": "130x12FB",
+      "kg_m": 12.25,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "100x16FL",
+      "type": "FB",
+      "label": "100x16FB",
+      "kg_m": 12.56,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "200x8FL",
+      "type": "FB",
+      "label": "200x8FB",
+      "kg_m": 12.56,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "65x25FL",
+      "type": "FB",
+      "label": "65x25FB",
+      "kg_m": 12.76,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "150x12FL",
+      "type": "FB",
+      "label": "150x12FB",
+      "kg_m": 14.13,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "180x10FL",
+      "type": "FB",
+      "label": "180x10FB",
+      "kg_m": 14.13,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "75x25FL",
+      "type": "FB",
+      "label": "75x25FB",
+      "kg_m": 14.72,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "100x20FL",
+      "type": "FB",
+      "label": "100x20FB",
+      "kg_m": 15.7,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "200x10FL",
+      "type": "FB",
+      "label": "200x10FB",
+      "kg_m": 15.7,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "130x16FL",
+      "type": "FB",
+      "label": "130x16FB",
+      "kg_m": 16.33,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "180x12FL",
+      "type": "FB",
+      "label": "180x12FB",
+      "kg_m": 16.96,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "150x16FL",
+      "type": "FB",
+      "label": "150x16FB",
+      "kg_m": 18.84,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "200x12FL",
+      "type": "FB",
+      "label": "200x12FB",
+      "kg_m": 18.84,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "100x25FL",
+      "type": "FB",
+      "label": "100x25FB",
+      "kg_m": 19.62,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "130x20FL",
+      "type": "FB",
+      "label": "130x20FB",
+      "kg_m": 20.41,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "180x16FL",
+      "type": "FB",
+      "label": "180x16FB",
+      "kg_m": 22.61,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "150x20FL",
+      "type": "FB",
+      "label": "150x20FB",
+      "kg_m": 23.55,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "200x16FL",
+      "type": "FB",
+      "label": "200x16FB",
+      "kg_m": 25.12,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "130x25FL",
+      "type": "FB",
+      "label": "130x25FB",
+      "kg_m": 25.51,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "180x20FL",
+      "type": "FB",
+      "label": "180x20FB",
+      "kg_m": 28.26,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "150x25FL",
+      "type": "FB",
+      "label": "150x25FB",
+      "kg_m": 29.44,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "200x20FL",
+      "type": "FB",
+      "label": "200x20FB",
+      "kg_m": 31.4,
+      "standard": "AS/NZS 3679.1"
+    },
+    {
+      "id": "180x25FL",
+      "type": "FB",
+      "label": "180x25FB",
+      "kg_m": 35.32,
+      "standard": "AS/NZS 3679.1"
+    }
+  ]
+}

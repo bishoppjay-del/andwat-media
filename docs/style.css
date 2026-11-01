@@ -10,3 +10,4 @@ th{background:#EEF2F7}.example{background:#EEF2F7;border-left:4px solid #F28C28;
 .sources{font-size:14px}.sources li{margin-bottom:4px;word-break:break-word}.disc{font-size:13px;color:#6b7280;border-top:1px solid #e5e7eb;margin-top:30px;padding-top:12px}
 .cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:0 20px}.cards{list-style:none;padding:0}.cards li{border:1px solid #d1d9e3;border-radius:8px;padding:12px 14px;margin-bottom:10px}
 .ad-slot{display:none}footer{background:#f5f7fa;margin-top:40px;font-size:14px;color:#6b7280}ul.check li{list-style:"☐  "}
+.cta-compliance-pack{border:2px solid #F28C28;border-radius:10px;padding:14px 18px;margin:28px 0;background:#FFF8F0}.cta-compliance-pack h2{margin-top:0}.cta-compliance-pack .price{margin:8px 0}.cta-compliance-pack .fine{font-size:13px;color:#6b7280;margin-bottom:0}

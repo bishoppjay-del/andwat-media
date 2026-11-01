@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Steel Takeoff Pro — Andwat Co</title>
+  <meta name="description" content="AU steel takeoff, mass schedule and 1D cut-list nesting for fabricators. Andwat Co, Brisbane." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="app-header no-print">
+    <div class="brand">
+      <div class="brand-mark">ST</div>
+      <div>
+        <h1>Steel Takeoff Pro</h1>
+        <p class="sub">Andwat Co · Brisbane · AU sections · mass · nest · buy list</p>
+      </div>
+    </div>
+    <div class="header-actions">
+      <span id="tierBadge" class="badge free">Free</span>
+      <input id="projectName" value="Untitled job" style="width:160px" title="Job name" />
+      <button type="button" id="btnSample" class="ghost">Load sample</button>
+      <button type="button" id="btnSave" disabled title="Pro">Save</button>
+      <button type="button" id="btnLoad" class="ghost">Load</button>
+      <button type="button" id="btnExportCsv" disabled title="Pro">Export CSV</button>
+      <button type="button" id="btnPrint" disabled title="Pro">Print / PDF</button>
+      <button type="button" id="btnUnlock" class="primary">Unlock Pro</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>Members</h2>
+      <p class="muted" style="margin-top:0;font-size:0.85rem">Enter section, cut length (mm) and qty. Free = 15 members. <span id="sectionSource"></span></p>
+      <div class="row no-print">
+        <button type="button" id="btnAdd" class="primary">+ Add member</button>
+      </div>
+      <div style="overflow-x:auto">
+        <table>
+          <thead>
+            <tr>
+              <th>Mark</th>
+              <th>Section</th>
+              <th class="num">Length mm</th>
+              <th class="num">Qty</th>
+              <th class="num">kg/m</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody id="membersBody"></tbody>
+        </table>
+      </div>
+
+      <h3>Nest settings</h3>
+      <div class="row">
+        <div class="field"><label>Kerf mm</label><input id="kerf" type="number" value="3" min="0" step="1" style="width:80px" /></div>
+        <div class="field"><label>End trim mm</label><input id="endTrim" type="number" value="10" min="0" step="1" style="width:80px" /></div>
+        <div class="field"><label>Min usable offcut mm</label><input id="minOffcut" type="number" value="600" min="0" step="10" style="width:100px" /></div>
+        <div class="field grow"><label>Stock lengths mm (comma)</label><input id="stockSizes" value="12000,9000,8000,6000" /></div>
+      </div>
+
+      <h3>Cost estimate (optional)</h3>
+      <div class="row">
+        <div class="field"><label>A$ / kg (default)</label><input id="audPerKg" type="number" value="2.80" min="0" step="0.05" style="width:100px" /></div>
+        <div class="field"><label>A$ / m (alt if no kg)</label><input id="audPerM" type="number" value="0" min="0" step="0.05" style="width:100px" /></div>
+      </div>
+
+      <div class="locked" data-pro-only style="margin-top:14px">
+        <p class="lock-note">Pro: CSV import (paste or file) — columns mark, section, length_mm, qty</p>
+        <div class="field">
+          <label>Paste CSV</label>
+          <textarea id="csvPaste" placeholder="mark,section,length_mm,qty&#10;C1,310UB40.4,6200,4"></textarea>
+        </div>
+        <div class="row">
+          <input type="file" id="csvFile" accept=".csv,text/csv" />
+          <button type="button" id="btnImportCsv">Import CSV</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Results</h2>
+      <div class="stats">
+        <div class="stat"><div class="v" id="statMass">0 kg</div><div class="l">Total mass</div></div>
+        <div class="stat"><div class="v" id="statMetres">0 m</div><div class="l">Cut metres</div></div>
+        <div class="stat"><div class="v" id="statBars">0</div><div class="l">Stock bars</div></div>
+        <div class="stat"><div class="v" id="statWaste">—</div><div class="l">Waste %</div></div>
+        <div class="stat"><div class="v" id="statCost">$0.00</div><div class="l">Est. material</div></div>
+      </div>
+
+      <h3>Mass by section</h3>
+      <div style="overflow-x:auto">
+        <table>
+          <thead>
+            <tr>
+              <th>Section</th>
+              <th class="num">Pcs</th>
+              <th class="num">m</th>
+              <th class="num">kg/m</th>
+              <th class="num">kg</th>
+            </tr>
+          </thead>
+          <tbody id="massBody"></tbody>
+        </table>
+      </div>
+
+      <h3>Buy list</h3>
+      <p id="nestError" class="bad" style="display:none"></p>
+      <div style="overflow-x:auto">
+        <table>
+          <thead>
+            <tr>
+              <th>Section</th>
+              <th class="num">Stock mm</th>
+              <th class="num">Bars</th>
+              <th class="num">Stock m</th>
+              <th class="num">Stock kg</th>
+            </tr>
+          </thead>
+          <tbody id="buyBody"></tbody>
+        </table>
+      </div>
+
+      <h3>Nest / saw sheet</h3>
+      <div id="nestBody"></div>
+    </section>
+  </main>
+
+  <div id="printSheet" class="print-only panel"></div>
+
+  <p class="footer-note no-print">
+    Practical fabrication takeoff only — not engineering design or certification.
+    Section masses from public AS/NZS tables (SteelInfo AU). Kerf and end trim are your shop settings.
+    Andwat Co (ABN 77 173 994 186) · not GST registered · Brisbane, Australia.
+  </p>
+
+  <div id="toast" class="toast"></div>
+
+  <div id="upgradeModal" class="modal-backdrop no-print" role="dialog" aria-modal="true">
+    <div class="modal">
+      <h3>Unlock Steel Takeoff Pro</h3>
+      <p id="upgradeMsg">Pro adds unlimited members, CSV import/export, printable schedules and saved projects in this browser.</p>
+      <p style="font-size:0.9rem">Pro is <strong>A$39/month</strong> or <strong>A$349/year</strong> (AUD · GST not applicable). After checkout you get a license key shaped <code>STP-XXXX-XXXX-XXXX</code>.</p>
+      <p style="font-size:0.9rem"><a id="getProLink" href="https://payhip.com/b/IliQx" rel="noopener">Get Pro on Payhip</a> · Free stays at 15 members with no key.</p>
+      <div class="field">
+        <label>License key</label>
+        <input id="licenseKey" placeholder="STP-XXXX-XXXX-XXXX" autocomplete="off" />
+      </div>
+      <div class="row" style="margin-top:12px">
+        <button type="button" id="btnApplyKey" class="primary">Apply key</button>
+        <button type="button" id="btnCloseUpgrade" class="ghost">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="nest.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
