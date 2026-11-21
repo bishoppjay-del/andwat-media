@@ -29,6 +29,7 @@
   .waitlist .status { margin-top: 12px; font-size: 15px; }
   .waitlist .status.error { color: #9b1c1c; }
   .fine { font-size: 13px; color: #6b7280; }
+  .waitlist .hp { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
   .cta-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
 </style>
 </head>
@@ -85,14 +86,7 @@
   <aside class="kit" id="early-access">
     <b>Join the early access list</b>
     <p>The first 20 shops get the tracker free for 3 months, then A$19/month. GST not applicable.</p>
-    <!--
-      TODO(signup): This form is a review-only placeholder and must not go live unwired.
-      Recommended handler: a Google Form (existing Google account, results in a Sheet).
-      See /workspace/empire/launch/welder-tracker/README.md for options and approval notes.
-      When approved: set data-handler="live", set action to the Form action URL (or embed),
-      and update privacy.html before publish.
-    -->
-    <form class="waitlist" id="waitlist-form" action="#early-access" method="post" data-handler="UNWIRED" novalidate>
+    <form class="waitlist" id="waitlist-form" action="https://andwat-welder-waitlist.bishoppjay.workers.dev/" method="post" data-handler="live" novalidate>
       <label for="wl-email">Work email</label>
       <input id="wl-email" name="email" type="email" autocomplete="email" required placeholder="you@shop.com.au" inputmode="email">
 
@@ -108,6 +102,10 @@
         <option value="30+">More than 30</option>
       </select>
 
+      <div class="hp" aria-hidden="true">
+        <label for="wl-website">Website</label>
+        <input id="wl-website" name="website" type="text" tabindex="-1" autocomplete="off">
+      </div>
       <button class="btn" type="submit">Join the early access list</button>
       <p class="hint">We’ll only use this to contact you about early access. No charge to join. Andwat Co, Brisbane. See the <a href="../privacy.html">privacy policy</a>.</p>
       <p class="status" id="waitlist-status" role="status" aria-live="polite"></p>
@@ -128,6 +126,20 @@
   var form = document.getElementById('waitlist-form');
   var status = document.getElementById('waitlist-status');
   if (!form) return;
+
+  function showJoined() {
+    status.className = 'status';
+    status.textContent = "You're on the early access list. We'll email you when there's news.";
+    form.reset();
+  }
+
+  if (/[?&]joined=1(?:&|$)/.test(location.search)) {
+    showJoined();
+    if (window.history && history.replaceState) {
+      history.replaceState(null, '', location.pathname + (location.hash || ''));
+    }
+  }
+
   form.addEventListener('submit', function (e) {
     e.preventDefault();
     var email = document.getElementById('wl-email');
@@ -140,10 +152,38 @@
     }
     if (form.getAttribute('data-handler') !== 'live') {
       status.className = 'status error';
-      status.textContent = 'Review build only — this form is not connected yet, so signups are not being collected.';
+      status.textContent = 'This form is not connected yet, so signups are not being collected.';
       return;
     }
-    form.submit();
+    var honey = document.getElementById('wl-website');
+    var data = new URLSearchParams();
+    data.set('email', email.value.trim());
+    data.set('shop', (document.getElementById('wl-shop').value || '').trim());
+    data.set('crew', document.getElementById('wl-crew').value || '');
+    data.set('source', 'waitlist-page');
+    if (honey) data.set('website', honey.value || '');
+    var btn = form.querySelector('button[type="submit"]');
+    if (btn) btn.disabled = true;
+    status.textContent = 'Sending…';
+    fetch(form.action, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded',
+        'Accept': 'application/json'
+      },
+      body: data.toString()
+    }).then(function (res) {
+      if (!res.ok) throw new Error('bad status');
+      return res.json().catch(function () { return { ok: true }; });
+    }).then(function (j) {
+      if (j && j.ok === false) throw new Error(j.error || 'failed');
+      showJoined();
+    }).catch(function () {
+      status.className = 'status error';
+      status.textContent = 'Something went wrong. Please try again in a minute, or use the contact page.';
+    }).then(function () {
+      if (btn) btn.disabled = false;
+    });
   });
 })();
 </script>
