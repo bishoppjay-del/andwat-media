@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Free galvanizing vent and drain hole lookup (GAA chart, AU)</title>
+<meta name="description" content="Look up GAA 2026 minimum vent and drain hole sizes for SHS, RHS and CHS, or apply the 25% rule to a custom size. Free, no sign-up, runs in your browser.">
+<link rel="canonical" href="https://tradieguides.com.au/galvanizing-vent-drain-hole-calculator.html">
+<meta property="og:title" content="Free galvanizing vent and drain hole lookup (GAA chart, AU)">
+<meta property="og:description" content="Look up GAA 2026 minimum vent and drain hole sizes for SHS, RHS and CHS, or apply the 25% rule to a custom size. Free, no sign-up, runs in your browser.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://tradieguides.com.au/galvanizing-vent-drain-hole-calculator.html">
+<meta name="robots" content="index,follow">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; form-action 'none'; base-uri 'none'">
+<link rel="stylesheet" href="style.css">
+<style>#tool{--navy:#1F3A5F;--orange:#E8792B;--bg:#F4F6F9;--ink:#1F2937;--grey:#5A6473;--line:#D5DAE1;--yellow:#FFF7D6;--red:#B42318;--redbg:#FDECEC;--green:#0B6B3A;--greenbg:#E7F5EC;--amber:#8A5A00;--amberbg:#FFF4E5}
+#tool,#tool *{box-sizing:border-box}
+#tool{color:var(--ink);background:var(--bg);border-radius:10px;padding:16px;margin:18px 0;font-size:16px;line-height:1.45}
+#tool .card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin-bottom:14px}
+#tool h2{color:var(--navy);font-size:1.15rem;margin:0 0 10px}
+#tool label{display:block;font-weight:600;margin:10px 0 3px}
+#tool .hint{color:var(--grey);font-size:.88rem;font-weight:400}
+#tool input[type=text],#tool input[type=number],#tool input[type=date],#tool select, #tool textarea{width:100%;padding:9px 10px;font-size:1rem;border:1px solid #C9B76A;border-radius:6px;background:var(--yellow);font-family:inherit;color:var(--ink)}
+#tool input.bad,#tool select.bad{border:2px solid var(--red);background:var(--redbg)}
+#tool .row2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+#tool .row3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px}
+#tool .btn{background:var(--navy);color:#fff;border:none;border-radius:6px;padding:10px 14px;font-size:1rem;cursor:pointer;font-family:inherit;font-weight:700;display:inline-block;margin-top:10px;margin-right:8px}
+#tool .btn.alt{background:#fff;color:var(--navy);border:1px solid var(--navy)}
+#tool .btn.orange{background:#F28C28;color:#fff;text-decoration:none}
+#tool .btns{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+#tool .big{background:var(--navy);color:#fff;border-radius:10px;padding:16px 18px;margin-bottom:12px}
+#tool .big .lbl{color:#DCE4F0;font-size:.95rem}
+#tool .big .val{font-size:2.4rem;font-weight:700;line-height:1.1}
+#tool .big .sub{color:#DCE4F0;margin-top:4px}
+#tool .tiles{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px}
+#tool .tile{background:#fff;border:1px solid var(--line);border-radius:8px;padding:10px 12px}
+#tool .tile .lbl{color:var(--grey);font-size:.85rem}
+#tool .tile .val{font-size:1.25rem;font-weight:700;color:var(--navy)}
+#tool table{width:100%;border-collapse:collapse;font-size:.95rem;margin:8px 0}
+#tool td,#tool th{padding:6px 8px;border:1px solid var(--line);text-align:left}
+#tool th{background:var(--navy);color:#fff;font-weight:600}
+#tool .msg{border-radius:8px;padding:10px 12px;margin-bottom:10px;font-size:.95rem}
+#tool .msg.err{background:var(--redbg);color:var(--red);border:1px solid #F3B8B3}
+#tool .msg.warn{background:#FFF4E5;border:1px solid #F6CF9C}
+#tool .msg.ok{background:var(--greenbg);border:1px solid #B7E0C4}
+#tool .msg.expired{background:var(--redbg);border:1px solid #F3B8B3;color:var(--red)}
+#tool .small{font-size:.86rem;color:var(--grey)}
+#tool .cta{border:2px solid #F28C28;border-left:6px solid #E8792B;background:#FFF8F0;border-radius:10px;padding:14px 18px;margin-top:14px}
+#tool .cta a.btn{margin-top:8px}
+#tool .hidden{display:none}
+#tool .list{list-style:none;padding:0;margin:0}
+#tool .list li{background:#fff;border:1px solid var(--line);border-radius:8px;padding:10px 12px;margin-bottom:8px}
+#tool .checkrow{display:grid;grid-template-columns:1fr auto;gap:8px;align-items:center;padding:8px 0;border-bottom:1px solid var(--line)}
+#tool .checkrow span.item{font-weight:600}
+#tool .radios{display:flex;gap:10px;flex-wrap:wrap;font-size:.9rem}
+#tool .radios label{font-weight:500;margin:0;display:flex;align-items:center;gap:4px}
+@media (max-width:640px){#tool .row2,#tool .row3{grid-template-columns:1fr}#tool .tiles{grid-template-columns:1fr}#tool .checkrow{grid-template-columns:1fr}#tool .big .val{font-size:2rem}}
+@media print{body>header,body>footer,.bf25,main.w>*:not(#tool){display:none!important}#tool .noprint,.cta{display:none!important}#tool{background:#fff;padding:0;margin:0}#tool .card{border:none;padding:0 0 10px}a{color:#000}}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Galvanizing vent and drain hole lookup (GAA chart, AU)", "url": "https://tradieguides.com.au/galvanizing-vent-drain-hole-calculator.html", "description": "Look up GAA 2026 minimum vent and drain hole sizes for SHS, RHS and CHS, or apply the 25% rule to a custom size. Free, no sign-up, runs in your browser.", "applicationCategory": "BusinessApplication", "operatingSystem": "Any (runs in a web browser)", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "AUD"}, "author": {"@type": "Organization", "name": "Andwat Co"}, "inLanguage": "en-AU", "dateModified": "2026-11-25"}</script>
+</head>
+<body>
+<header>
+<div class="w"><a href="index.html">Andwat Trade Guides</a>
+<nav><a href="index.html">All guides</a><a href="free-tools.html">Free tools</a><a href="https://payhip.com/b/eYoCQ?utm_source=tradieguides&amp;utm_medium=guide&amp;utm_campaign=galvanizing-vent-drain-hole-calculator" rel="noopener">Fabrication QA &amp; ITP Kit (A$29)</a></nav></div>
+</header>
+<div class="bf25" id="bf25" role="note"><b>Black Friday:</b> 25% off every kit with code <code>BF25</code>. Ends 1 Dec 11:59pm AEST. <a href="https://payhip.com/Andwatco?utm_source=tradieguides&amp;utm_medium=banner&amp;utm_campaign=bf25-galvanizing-vent-drain-hole-calculator" rel="noopener">Shop the template store</a></div>
+<script>if(Date.now()>Date.parse("2026-12-01T23:59:59+10:00")){var b=document.getElementById("bf25");if(b)b.remove();}</script>
+<main class="w">
+
+<h1>Galvanizing vent and drain hole lookup (GAA chart, AU)</h1>
+<p class="meta">Last reviewed 25 November 2026 · Free · No sign-up · Runs in your browser</p>
+<p class="lead">Look up the Galvanizers Association of Australia minimum vent and drain hole sizes for common SHS, RHS and CHS, or apply the 25% rule to a custom size. Figures come from the GAA 2026 chart already published on our galvanizing guide.</p>
+<p>Completely sealed fabrications cannot be galvanized. Capped hollow sections need holes at both ends, off centre and diagonally opposite — a single hole in the middle of a cap is not enough. The chart figures are the GAA minimum at <em>each</em> capped end. Always confirm with your galvanizer, and read the placement rules on the <a href="galvanizing-vent-drain-holes-rhs-shs-chs-australia.html">vent and drain holes guide</a>.</p>
+<div class="example"><p><strong>Worked example from the guide (50×50 SHS):</strong> one 18 mm hole, or two 13 mm holes, or four 10 mm holes, at each end. Round up to the next drill or plasma size you have, never down.</p></div>
+<p class="example"><strong>Privacy:</strong> the lookup runs entirely in your browser. Nothing you type is sent to us or anyone else. Your last selection is saved in this browser's local storage on your device only.</p>
+<h2>The lookup</h2>
+<div id="tool">
+  <div class="card">
+    <label for="kind">Section type</label>
+    <select id="kind">
+      <option value="shs" selected>SHS / RHS (GAA chart)</option>
+      <option value="chs">CHS / pipe (GAA chart)</option>
+      <option value="custom">Custom size (25% rule estimate)</option>
+    </select>
+    <div id="rowShs">
+      <label for="shs">Section</label>
+      <select id="shs"><option value="0">20×20 SHS</option>
+<option value="1">25×25 SHS</option>
+<option value="2">30×30 SHS</option>
+<option value="3">35×35 SHS · 50×20 RHS</option>
+<option value="4">40×40 SHS · 50×25 RHS</option>
+<option value="5">50×50 SHS · 65×35, 75×25 RHS</option>
+<option value="6">76×38 RHS</option>
+<option value="7">65×65 SHS · 75×50 RHS</option>
+<option value="8">75×75 SHS · 100×50 RHS</option>
+<option value="9">100×100 SHS · 150×50 RHS</option>
+<option value="10">125×125 SHS · 150×100 RHS</option>
+<option value="11">150×150 SHS · 200×100 RHS</option></select>
+    </div>
+    <div id="rowChs" class="hidden">
+      <label for="chs">CHS outside diameter</label>
+      <select id="chs"><option value="0">Ø 26.9 mm</option>
+<option value="1">Ø 33.7 mm</option>
+<option value="2">Ø 42.4 mm</option>
+<option value="3">Ø 48.3 mm</option>
+<option value="4">Ø 60.3 mm</option>
+<option value="5">Ø 76.1 mm</option>
+<option value="6">Ø 88.9 mm</option>
+<option value="7">Ø 101.6 mm</option>
+<option value="8">Ø 114.3 mm</option>
+<option value="9">Ø 139.7 mm</option>
+<option value="10">Ø 168.3 mm</option>
+<option value="11">Ø 219.1 mm</option></select>
+    </div>
+    <div id="rowCustom" class="hidden">
+      <label for="customKind">Custom shape</label>
+      <select id="customKind"><option value="rhs">SHS / RHS (enter width and height)</option><option value="chs">CHS (enter outside diameter)</option></select>
+      <div class="row3">
+        <div><label for="w">Width or OD (mm)</label><input type="text" inputmode="decimal" id="w" autocomplete="off"></div>
+        <div><label for="h">Height (mm) <span class="hint">leave blank for CHS</span></label><input type="text" inputmode="decimal" id="h" autocomplete="off"></div>
+        <div><label for="thick">Wall thickness (mm) <span class="hint">optional; holes must be at least this and Ø10 mm</span></label><input type="text" inputmode="decimal" id="thick" autocomplete="off"></div>
+      </div>
+    </div>
+    <div class="btns noprint"><button class="btn" type="button" id="go">Look up hole sizes</button></div>
+  </div>
+  <div class="card" id="results"><p class="small">Pick a listed section and press Look up. For a size that is not on the chart, use Custom size — that path is an estimate from the 25% rule.</p></div>
+  <div class="card">
+    <h2>Overlapping plates (GAA 2026 chart)</h2>
+    <p class="small" style="margin-top:0">Seal-welded overlaps can trap moisture. Enter the area of overlap and we'll show the chart's recommended action.</p>
+    <div class="row2">
+      <div><label for="olw">Overlap width (mm)</label><input type="text" inputmode="decimal" id="olw" autocomplete="off"></div>
+      <div><label for="olh">Overlap length (mm)</label><input type="text" inputmode="decimal" id="olh" autocomplete="off"></div>
+    </div>
+    <div class="btns noprint"><button class="btn" type="button" id="goOl">Look up overlap rule</button></div>
+    <div id="overlapOut"></div>
+  </div>
+</div>
+<script>
+(function(){
+  var SHS = [
+    ["20\u00d720 SHS", 10, null, null],
+    ["25\u00d725 SHS", 10, null, null],
+    ["30\u00d730 SHS", 11, null, null],
+    ["35\u00d735 SHS \u00b7 50\u00d720 RHS", 12, null, null],
+    ["40\u00d740 SHS \u00b7 50\u00d725 RHS", 14, 10, null],
+    ["50\u00d750 SHS \u00b7 65\u00d735, 75\u00d725 RHS", 18, 13, 10],
+    ["76\u00d738 RHS", 25, 15, 11],
+    ["65\u00d765 SHS \u00b7 75\u00d750 RHS", 25, 16, 11],
+    ["75\u00d775 SHS \u00b7 100\u00d750 RHS", 30, 19, 13],
+    ["100\u00d7100 SHS \u00b7 150\u00d750 RHS", 40, 25, 18],
+    ["125\u00d7125 SHS \u00b7 150\u00d7100 RHS", 45, 35, 25],
+    ["150\u00d7150 SHS \u00b7 200\u00d7100 RHS", 55, 40, 30]
+  ];
+  var CHS = [
+    ["26.9", 10, null, null],
+    ["33.7", 10, null, null],
+    ["42.4", 11, 10, null],
+    ["48.3", 13, 10, null],
+    ["60.3", 16, 11, null],
+    ["76.1", 20, 14, 10],
+    ["88.9", 25, 16, 12],
+    ["101.6", 30, 18, 13],
+    ["114.3", 30, 25, 15],
+    ["139.7", 35, 25, 18],
+    ["168.3", 45, 30, 25],
+    ["219.1", 55, 40, 30]
+  ];
+  var KEY = "tg-galv-holes";
+  function $(id){ return document.getElementById(id); }
+  function hole(n){ return n == null ? "\u2014" : n + " mm"; }
+  function parseNum(s){
+    if (s == null) return NaN;
+    var t = String(s).trim().replace(/[,\s]/g,"");
+    if (t === "") return NaN;
+    var n = Number(t);
+    return isFinite(n) ? n : NaN;
+  }
+  function ceilMm(x){ return Math.ceil(x - 1e-9); }
+  function customHoles(diag, thick){
+    var one = Math.max(10, isFinite(thick) && thick > 0 ? thick : 0, 0.25 * diag);
+    one = ceilMm(one);
+    var two = ceilMm(one / Math.SQRT2);
+    var four = ceilMm(one / 2);
+    if (two < 10) two = null;
+    if (four < 10) four = null;
+    return {one:one, two: two, four: four, raw: 0.25 * diag};
+  }
+  function overlapAdvice(area){
+    if (!(area > 0)) return null;
+    if (area <= 10000) return {band:"Up to 10,000 mm\u00b2", action:"Fully sealed weld"};
+    if (area <= 100000) return {band:"10,000\u2013100,000 mm\u00b2", action:"2 \u00d7 \u00d812 mm or larger holes at the corners (diagonally opposite, in one member only), or 2 \u00d7 25 mm or larger gaps in the weld at the corners"};
+    if (area <= 250000) return {band:"100,000\u2013250,000 mm\u00b2", action:"4 \u00d7 \u00d812 mm or larger holes at the corners, or 4 \u00d7 25 mm or larger weld gaps at the corners"};
+    return {band:"250,000 mm\u00b2 and over", action:"Holes of 12 mm or more (or 25 mm weld gaps) at the corners and around the edge at least every 300 mm"};
+  }
+  window.TGGalv = { customHoles:customHoles, overlapAdvice:overlapAdvice, SHS:SHS, CHS:CHS };
+
+  function cta(){
+    return '<div class="cta"><b>Put the vent and drain check in your ITP</b><br>The <b>Fabrication QA &amp; ITP Kit (AU)</b> is an editable Inspection &amp; Test Plan with hold and witness points, weld log, mill certs, DFT, NCR register and a dispatch check. Add \u201cvent and drain holes checked\u201d as a hold point before galv. Excel and Google Sheets. List price A$29. A QA record template, not engineering certification.<br><a class="btn orange" href="https://payhip.com/b/eYoCQ?utm_source=tradieguides&amp;utm_medium=guide&amp;utm_campaign=galvanizing-vent-drain-hole-calculator" rel="noopener">See the Fabrication QA &amp; ITP Kit (A$29)</a></div>';
+  }
+  function renderHoles(label, one, two, four, note){
+    return '<div class="big"><div class="lbl">'+label+'</div><div class="val">'+hole(one)+'</div><div class="sub">Minimum diameter of each external vent/drain hole at each capped end (GAA 2026 chart)</div></div>' +
+      '<div class="tiles"><div class="tile"><div class="lbl">1 hole</div><div class="val">'+hole(one)+'</div></div>' +
+      '<div class="tile"><div class="lbl">2 holes (each)</div><div class="val">'+hole(two)+'</div></div>' +
+      '<div class="tile"><div class="lbl">4 holes (each)</div><div class="val">'+hole(four)+'</div></div></div>' +
+      '<p>A dash means that hole count is not listed for this size (holes would fall under the 10 mm minimum, or GAA gives no figure). Round up to the next drill or plasma size you actually have, never down. Open ends are best; capped ends need holes at both ends, off centre, diagonally opposite, and not only in the centre of an end plate.</p>' +
+      (note ? '<p class="small">'+note+"</p>" : "") + cta();
+  }
+  function lookupChart(){
+    var kind = $("kind").value;
+    var out = $("results");
+    if (kind === "shs"){
+      var r = SHS[+$("shs").value];
+      if (!r){ out.innerHTML = '<div class="msg err">Pick a section from the list.</div>'; return; }
+      out.innerHTML = renderHoles(r[0], r[1], r[2], r[3], "Figures are copied from the GAA 2026 Best Practice Design for Galvanizing chart, as published on our <a href=\"galvanizing-vent-drain-holes-rhs-shs-chs-australia.html\">vent and drain holes guide</a>. Where GAA's online Design Manual rounds a size smaller, use the bigger hole or ask your galvanizer.");
+    } else if (kind === "chs"){
+      var r = CHS[+$("chs").value];
+      if (!r){ out.innerHTML = '<div class="msg err">Pick a CHS outside diameter from the list.</div>'; return; }
+      out.innerHTML = renderHoles("CHS / pipe \u00d8 "+r[0]+" mm", r[1], r[2], r[3], "Figures are copied from the GAA 2026 Best Practice Design for Galvanizing chart, as published on our <a href=\"galvanizing-vent-drain-holes-rhs-shs-chs-australia.html\">vent and drain holes guide</a>.");
+    } else {
+      var w = parseNum($("w").value), h = parseNum($("h").value), t = parseNum($("thick").value);
+      var isPipe = $("customKind").value === "chs";
+      if (isPipe){
+        if (!(w > 0)){ out.innerHTML = '<div class="msg err">Enter the outside diameter in millimetres.</div>'; return; }
+      } else {
+        if (!(w > 0 && h > 0)){ out.innerHTML = '<div class="msg err">Enter the section width and height in millimetres.</div>'; return; }
+      }
+      if ($("thick").value.trim() && !(t >= 0)){ out.innerHTML = '<div class="msg err">Wall thickness must be a number, or leave it blank.</div>'; return; }
+      var diag = isPipe ? w : Math.sqrt(w*w + h*h);
+      var r = customHoles(diag, t);
+      var note = "This is the GAA 25% rule from the guide, not a chart row: each hole should be at least 25% of the section's diagonal"+(isPipe?" (the outside diameter for CHS)":"")+" (here 25% of "+diag.toFixed(1)+" mm \u2248 "+r.raw.toFixed(1)+" mm), at least \u00d810 mm, and at least the wall thickness if you entered one. Values are rounded up. Prefer the chart when your size is listed, and confirm with your galvanizer \u2014 longer lengths and bigger volumes may need the hollow-vessel rule (at least 50 mm diameter for every 0.5 m\u00b3) instead.";
+      out.innerHTML = '<div class="msg warn">Custom sizes are an estimate from the 25% rule. Use the chart lookup when your section is listed.</div>' + renderHoles("Custom "+(isPipe?("CHS \u00d8 "+w+" mm"):(w+"\u00d7"+h+" mm")), r.one, r.two, r.four, note);
+    }
+    try { localStorage.setItem(KEY, JSON.stringify({kind:$("kind").value, shs:$("shs").value, chs:$("chs").value, customKind:$("customKind").value, w:$("w").value, h:$("h").value, thick:$("thick").value, olw:$("olw").value, olh:$("olh").value})); } catch(e){}
+  }
+  function lookupOverlap(){
+    var w = parseNum($("olw").value), h = parseNum($("olh").value);
+    var box = $("overlapOut");
+    if (!(w > 0 && h > 0)){ box.innerHTML = '<div class="msg err">Enter the overlap width and length in millimetres.</div>'; return; }
+    var area = w * h;
+    var a = overlapAdvice(area);
+    box.innerHTML = '<div class="tiles"><div class="tile"><div class="lbl">Area of overlap</div><div class="val">'+Math.round(area).toLocaleString("en-AU")+' mm\u00b2</div></div>' +
+      '<div class="tile"><div class="lbl">GAA band</div><div class="val" style="font-size:1rem">'+a.band+'</div></div></div>' +
+      '<p><b>Recommended action (GAA 2026 chart):</b> '+a.action+'.</p>' +
+      '<p class="small">From the overlap table on our <a href="galvanizing-vent-drain-holes-rhs-shs-chs-australia.html">vent and drain holes guide</a>. Confirm with your galvanizer.</p>';
+  }
+  function showKind(){
+    var k = $("kind").value;
+    $("rowShs").className = k === "shs" ? "" : "hidden";
+    $("rowChs").className = k === "chs" ? "" : "hidden";
+    $("rowCustom").className = k === "custom" ? "" : "hidden";
+  }
+  document.addEventListener("DOMContentLoaded", function(){
+    try {
+      var d = JSON.parse(localStorage.getItem(KEY) || "null");
+      if (d){
+        ["kind","shs","chs","customKind","w","h","thick","olw","olh"].forEach(function(id){ if (d[id] != null && $(id)) $(id).value = d[id]; });
+      }
+    } catch(e){}
+    showKind();
+    $("kind").addEventListener("change", showKind);
+    $("go").addEventListener("click", lookupChart);
+    $("goOl").addEventListener("click", lookupOverlap);
+  });
+})();
+
+</script>
+<h2>Sources</h2>
+<ul class="sources">
+<li><a href="https://gaa.com.au/download/7792/" rel="noopener">Galvanizers Association of Australia – Best Practice Design for Galvanizing (2026 chart)</a></li>
+<li><a href="https://designmanual.gaa.com.au/index.php/design/structural-sections/" rel="noopener">GAA Design Manual – Structural sections</a></li>
+<li><a href="galvanizing-vent-drain-holes-rhs-shs-chs-australia.html">Our guide: Galvanizing vent and drain holes for RHS, SHS and CHS</a></li>
+</ul>
+<h2>Related guides</h2>
+<ul>
+<li><a href="galvanizing-vent-drain-holes-rhs-shs-chs-australia.html">Galvanizing vent and drain holes: sizes and placement</a></li>
+<li><a href="fabrication-itp-as-nzs-5131.html">Fabrication ITP under AS/NZS 5131</a></li>
+<li><a href="steel-cut-list-calculator.html">Steel cut list calculator: stock lengths, kerf and offcuts</a></li>
+<li><a href="workshop-dispatch-schedule-small-steel-shops.html">Workshop dispatch schedule for small steel shops</a></li>
+</ul>
+<h2>Other free tools</h2>
+<ul>
+<li><a href="free-tools.html">All free tools</a></li>
+<li><a href="plant-pre-start-checklist-printable.html">Printable plant pre-start checklist</a></li>
+<li><a href="steel-takeoff-pro/">Steel Takeoff Pro</a></li>
+</ul>
+<p class="pack-upsell">Need more than one kit? The <a href="https://payhip.com/b/Rs6y4?utm_source=tradieguides&amp;utm_medium=guide&amp;utm_campaign=galvanizing-vent-drain-hole-calculator" rel="noopener">AU Tradie Compliance Pack</a> unlocks the full library + a new kit every month from A$14.95.</p>
+<p class="disc">General information only, summarised from the GAA 2026 chart and Design Manual as at the review date. It isn't engineering, galvanizing or WHS advice. Chart values are minimums; your galvanizer may require larger holes, and longer lengths or bigger volumes may need the hollow-vessel rule. Check the source or ask your galvanizer before you cut.</p>
+
+</main>
+<footer>
+<div class="w">Andwat Trade Guides by Andwat Co, free plain-English guides for Australian trades and small businesses. General information only, not legal, tax, WHS or engineering advice. Always check the linked official source. <br><a href="about.html">About</a> · <a href="contact.html">Contact</a> · <a href="privacy.html">Privacy</a> · <a href="free-tools.html">Free tools</a> · <a href="home-business-templates.html">Home &amp; business templates</a> · <a href="https://payhip.com/Andwatco?utm_source=tradieguides&amp;utm_medium=guide&amp;utm_campaign=galvanizing-vent-drain-hole-calculator">Template store</a></div>
+</footer>
+</body>
+</html>
