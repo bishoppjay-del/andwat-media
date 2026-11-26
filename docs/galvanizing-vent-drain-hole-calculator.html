@@ -55,9 +55,12 @@
 #tool .radios{display:flex;gap:10px;flex-wrap:wrap;font-size:.9rem}
 #tool .radios label{font-weight:500;margin:0;display:flex;align-items:center;gap:4px}
 @media (max-width:640px){#tool .row2,#tool .row3{grid-template-columns:1fr}#tool .tiles{grid-template-columns:1fr}#tool .checkrow{grid-template-columns:1fr}#tool .big .val{font-size:2rem}}
-@media print{body>header,body>footer,.bf25,main.w>*:not(#tool){display:none!important}#tool .noprint,.cta{display:none!important}#tool{background:#fff;padding:0;margin:0}#tool .card{border:none;padding:0 0 10px}a{color:#000}}
+@page{size:A4;margin:14mm}
+#tool .print-only{display:none}
+@media print{body>header,body>footer,.bf25,main.w>*:not(#tool){display:none!important}#tool .noprint,.cta{display:none!important}#tool .print-only{display:block;font-size:1.1rem;font-weight:700;color:#1F3A5F;margin-bottom:8px;border-bottom:2px solid #1F3A5F;padding-bottom:4px}#tool{background:#fff;padding:0;margin:0;-webkit-print-color-adjust:exact;print-color-adjust:exact}#tool .card{border:1px solid #d1d9e3;padding:10px 12px;break-inside:avoid}#tool input,#tool select{background:#fff!important;border:1px solid #9ca3af!important}a{color:#000}}
 </style>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Galvanizing vent and drain hole lookup (GAA chart, AU)", "url": "https://tradieguides.com.au/galvanizing-vent-drain-hole-calculator.html", "description": "Look up GAA 2026 minimum vent and drain hole sizes for SHS, RHS and CHS, or apply the 25% rule to a custom size. Free, no sign-up, runs in your browser.", "applicationCategory": "BusinessApplication", "operatingSystem": "Any (runs in a web browser)", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "AUD"}, "author": {"@type": "Organization", "name": "Andwat Co"}, "inLanguage": "en-AU", "dateModified": "2026-11-25"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Galvanizing vent and drain hole lookup (GAA chart, AU)", "url": "https://tradieguides.com.au/galvanizing-vent-drain-hole-calculator.html", "description": "Look up GAA 2026 minimum vent and drain hole sizes for SHS, RHS and CHS, or apply the 25% rule to a custom size. Free, no sign-up, runs in your browser.", "applicationCategory": "BusinessApplication", "operatingSystem": "Any (runs in a web browser)", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "AUD"}, "author": {"@type": "Organization", "name": "Andwat Co"}, "inLanguage": "en-AU", "dateModified": "2026-11-26"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Where do the hole sizes in this lookup come from?", "acceptedAnswer": {"@type": "Answer", "text": "All listed SHS, RHS and CHS sizes match the Galvanizers Association of Australia (GAA) 2026 Best Practice Design for Galvanizing chart. Custom sizes use the GAA 25% of diagonal rule (minimum Ø10 mm) as an estimate."}}, {"@type": "Question", "name": "Is one hole in the middle of a capped end plate enough?", "acceptedAnswer": {"@type": "Answer", "text": "No. Capped hollow sections need vent and drain holes at both ends, off centre and diagonally opposite, so air can escape and molten zinc can drain cleanly. Always confirm with your galvanizer before cutting."}}, {"@type": "Question", "name": "Should I round up or down to match my drill bit or plasma tip?", "acceptedAnswer": {"@type": "Answer", "text": "Always round up to the next drill or plasma size you have, never down."}}]}</script>
 </head>
 <body>
 <header>
@@ -76,6 +79,7 @@
 <p class="example"><strong>Privacy:</strong> the lookup runs entirely in your browser. Nothing you type is sent to us or anyone else. Your last selection is saved in this browser's local storage on your device only.</p>
 <h2>The lookup</h2>
 <div id="tool">
+  <div class="print-only">Galvanizing Vent &amp; Drain Hole Sheet — tradieguides.com.au</div>
   <div class="card">
     <label for="kind">Section type</label>
     <select id="kind">
@@ -122,7 +126,7 @@
         <div><label for="thick">Wall thickness (mm) <span class="hint">optional; holes must be at least this and Ø10 mm</span></label><input type="text" inputmode="decimal" id="thick" autocomplete="off"></div>
       </div>
     </div>
-    <div class="btns noprint"><button class="btn" type="button" id="go">Look up hole sizes</button></div>
+    <div class="btns noprint"><button class="btn" type="button" id="go">Look up hole sizes</button><button class="btn alt" type="button" id="printBtn">Print / save PDF</button></div>
   </div>
   <div class="card" id="results"><p class="small">Pick a listed section and press Look up. For a size that is not on the chart, use Custom size — that path is an estimate from the 25% rule.</p></div>
   <div class="card">
@@ -261,10 +265,15 @@
     $("kind").addEventListener("change", showKind);
     $("go").addEventListener("click", lookupChart);
     $("goOl").addEventListener("click", lookupOverlap);
+    $("printBtn").addEventListener("click", function(){ lookupChart(); window.print(); });
   });
 })();
 
 </script>
+<h2>Common questions</h2>
+<h3>Where do the hole sizes in this lookup come from?</h3><p>All listed SHS, RHS and CHS sizes match the Galvanizers Association of Australia (GAA) 2026 Best Practice Design for Galvanizing chart. Custom sizes use the GAA 25% of diagonal rule (minimum Ø10 mm) as an estimate.</p>
+<h3>Is one hole in the middle of a capped end plate enough?</h3><p>No. Capped hollow sections need vent and drain holes at both ends, off centre and diagonally opposite, so air can escape and molten zinc can drain cleanly. Always confirm with your galvanizer before cutting.</p>
+<h3>Should I round up or down to match my drill bit or plasma tip?</h3><p>Always round up to the next drill or plasma size you have, never down.</p>
 <h2>Sources</h2>
 <ul class="sources">
 <li><a href="https://gaa.com.au/download/7792/" rel="noopener">Galvanizers Association of Australia – Best Practice Design for Galvanizing (2026 chart)</a></li>

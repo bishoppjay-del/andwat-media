@@ -55,9 +55,12 @@
 #tool .radios{display:flex;gap:10px;flex-wrap:wrap;font-size:.9rem}
 #tool .radios label{font-weight:500;margin:0;display:flex;align-items:center;gap:4px}
 @media (max-width:640px){#tool .row2,#tool .row3{grid-template-columns:1fr}#tool .tiles{grid-template-columns:1fr}#tool .checkrow{grid-template-columns:1fr}#tool .big .val{font-size:2rem}}
-@media print{body>header,body>footer,.bf25,main.w>*:not(#tool){display:none!important}#tool .noprint,.cta{display:none!important}#tool{background:#fff;padding:0;margin:0}#tool .card{border:none;padding:0 0 10px}a{color:#000}}
+@page{size:A4;margin:14mm}
+#tool .print-only{display:none}
+@media print{body>header,body>footer,.bf25,main.w>*:not(#tool){display:none!important}#tool .noprint,.cta{display:none!important}#tool .print-only{display:block;font-size:1.1rem;font-weight:700;color:#1F3A5F;margin-bottom:8px;border-bottom:2px solid #1F3A5F;padding-bottom:4px}#tool{background:#fff;padding:0;margin:0;-webkit-print-color-adjust:exact;print-color-adjust:exact}#tool .card{border:1px solid #d1d9e3;padding:10px 12px;break-inside:avoid}#tool input,#tool select{background:#fff!important;border:1px solid #9ca3af!important}a{color:#000}}
 </style>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Overdue invoice interest calculator (AU / QLD)", "url": "https://tradieguides.com.au/overdue-invoice-interest-calculator.html", "description": "Free calculator for Australian tradies: work out simple interest on a late invoice using the QLD court rate of 10.35% (Jul–Dec 2026), the QBCC s67P penalty rate, or your own agreed rate. Runs in your browser.", "applicationCategory": "BusinessApplication", "operatingSystem": "Any (runs in a web browser)", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "AUD"}, "author": {"@type": "Organization", "name": "Andwat Co"}, "inLanguage": "en-AU", "dateModified": "2026-11-25"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebApplication", "name": "Overdue invoice interest calculator (AU / QLD)", "url": "https://tradieguides.com.au/overdue-invoice-interest-calculator.html", "description": "Free calculator for Australian tradies: work out simple interest on a late invoice using the QLD court rate of 10.35% (Jul–Dec 2026), the QBCC s67P penalty rate, or your own agreed rate. Runs in your browser.", "applicationCategory": "BusinessApplication", "operatingSystem": "Any (runs in a web browser)", "isAccessibleForFree": true, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "AUD"}, "author": {"@type": "Organization", "name": "Andwat Co"}, "inLanguage": "en-AU", "dateModified": "2026-11-26"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Can I charge interest on any overdue invoice in Australia?", "acceptedAnswer": {"@type": "Answer", "text": "In most of Australia you can only charge interest if it was agreed in your quote, contract or written terms before the work started. For Queensland construction contracts, BIF Act s73 or QBCC Act s67P can apply statutory default interest rules depending on the contract."}}, {"@type": "Question", "name": "What is the Queensland BIF Act s73 interest rate for July–December 2026?", "acceptedAnswer": {"@type": "Answer", "text": "Under BIF Act s73, interest is the greater of your contract rate and the Queensland Courts money-order rate, which is 10.35% p.a. for 1 July–31 December 2026. Queensland Courts update this rate on 1 January and 1 July."}}, {"@type": "Question", "name": "Does this calculator use simple or compound interest?", "acceptedAnswer": {"@type": "Answer", "text": "Simple interest: amount owing × annual rate × days late ÷ 365, worked from the day after the due date to the payment or calculation date."}}]}</script>
 </head>
 <body>
 <header>
@@ -77,6 +80,7 @@
 <p class="example"><strong>Privacy:</strong> the calculator runs entirely in your browser. Nothing you type is sent to us or anyone else, and the page loads no trackers, analytics or third-party scripts. So your figures are still there next time, they're saved in this browser's local storage on your device only. To remove them, clear this site's data in your browser settings, or press Reset.</p>
 <h2>The calculator</h2>
 <div id="tool">
+  <div class="print-only">Overdue Invoice Interest Calculation — tradieguides.com.au</div>
   <div class="card">
     <label for="amount">Amount owing (A$)</label>
     <input type="text" inputmode="decimal" id="amount" value="4000" autocomplete="off">
@@ -103,7 +107,7 @@
       <label for="ownRate">Your agreed annual rate (%)</label>
       <input type="text" inputmode="decimal" id="ownRate" autocomplete="off">
     </div>
-    <div class="btns noprint"><button class="btn" type="button" id="go">Calculate</button><button class="btn alt" type="button" id="reset">Reset</button></div>
+    <div class="btns noprint"><button class="btn" type="button" id="go">Calculate</button><button class="btn alt" type="button" id="printBtn">Print / save PDF</button><button class="btn alt" type="button" id="reset">Reset</button></div>
   </div>
   <div class="card" id="results"><p class="small">Fill in the figures and press Calculate. The example uses the guide's $4,000 / 30 days / 10.35% case.</p></div>
 </div>
@@ -257,6 +261,7 @@
     showBasisFields();
     $("basis").addEventListener("change", showBasisFields);
     $("go").addEventListener("click", calc);
+    $("printBtn").addEventListener("click", function(){ calc(); window.print(); });
     $("reset").addEventListener("click", reset);
     ["due","asAt"].forEach(function(id){
       $(id).addEventListener("change", function(){
@@ -270,6 +275,10 @@
 })();
 
 </script>
+<h2>Common questions</h2>
+<h3>Can I charge interest on any overdue invoice in Australia?</h3><p>In most of Australia you can only charge interest if it was agreed in your quote, contract or written terms before the work started. For Queensland construction contracts, BIF Act s73 or QBCC Act s67P can apply statutory default interest rules depending on the contract.</p>
+<h3>What is the Queensland BIF Act s73 interest rate for July–December 2026?</h3><p>Under BIF Act s73, interest is the greater of your contract rate and the Queensland Courts money-order rate, which is 10.35% p.a. for 1 July–31 December 2026. Queensland Courts update this rate on 1 January and 1 July.</p>
+<h3>Does this calculator use simple or compound interest?</h3><p>Simple interest: amount owing × annual rate × days late ÷ 365, worked from the day after the due date to the payment or calculation date.</p>
 <h2>Sources</h2>
 <ul class="sources">
 <li><a href="https://www.courts.qld.gov.au/types-of-cases/money-disputes/interest-on-debts/interest-rates" rel="noopener">Queensland Courts – Interest rates (money-order rate 10.35% p.a., 1 July–31 December 2026)</a></li>
